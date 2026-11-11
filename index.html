@@ -1,21 +1,19 @@
 <!DOCTYPE html>
+
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="artifact-type" content="narrative">
-  <meta name="design-style" content="charter">
-  <title>Nota de Aula: Preservação Digital de Longo Prazo</title>
-
-  <!-- Google Fonts: Libre Caslon Text & Inter -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-  <!-- Lucide Icons -->
-  <script src="https://unpkg.com/lucide@1.43.0/dist/umd/lucide.min.js"></script>
-
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="narrative" name="artifact-type"/>
+<meta content="charter" name="design-style"/>
+<title>Nota de Aula: Preservação Digital de Longo Prazo</title>
+<!-- Google Fonts: Libre Caslon Text & Inter -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<!-- Lucide Icons -->
+<script src="https://unpkg.com/lucide@1.43.0/dist/umd/lucide.min.js"></script>
+<style>
     :root {
       color-scheme: light;
 
@@ -894,7 +892,7 @@
       }
     }
   </style>
-  <style id="nova-paleta">
+<style id="nova-paleta">
     /* ================================================================
        NOVA PALETA — Preservação Digital (bloco exclusivamente aditivo)
        Identidade: azul-marinho / azul-petróleo / verde-teal / verde-menta,
@@ -1072,7 +1070,7 @@
     .oais-svg [fill="#e3dac4"] { fill: #DFF7ED; }
     .oais-svg [fill="#4f5360"] { fill: #557080; }
   </style>
-  <style id="responsive-overrides">
+<style id="responsive-overrides">
     /* ---------- Regras gerais (qualquer largura) ---------- */
     img, video, canvas, iframe {
       max-width: 100%;
@@ -1305,1030 +1303,663 @@
       }
     }
   </style>
-</head>
-<body>
-
-  <!-- Full-Bleed Academic Title Band (Charter Signature) -->
-  <header class="charter-hero" id="topo">
-    <div class="charter-hero-inner">
-      <div class="charter-tag">
-        <i data-lucide="book-open" style="width:16px;height:16px;"></i>
-        <span>Ciência da Informação • Conteúdos Digitais • Preservação e Curadoria</span>
-      </div>
-      <h1>Preservação de Longo Prazo de Conteúdos Digitais</h1>
-      <div class="charter-hero-subtitle">
+<style id="ux18">[hidden]{display:none!important}button,input,select{font:inherit}button,a.quick-nav-btn,.btn-action{min-height:44px}button{color:var(--on-surface);cursor:pointer}button.quiz-option,button.layer-card{text-align:left;width:100%;font-family:inherit}button.layer-card{display:block}button:focus-visible,[role=button]:focus-visible,input:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid #08736e;outline-offset:4px}.skip-link{position:fixed;top:-100px;left:1rem;z-index:100;background:#fff;padding:1rem}.skip-link:focus{top:1rem}.learning-prompt,.lesson-end{background:#e9f7f3;border-left:4px solid #08736e;padding:1rem;margin:1.3rem 0}.learning-prompt p,.lesson-end p{margin:.5rem 0}.eyebrow{font:700 .8rem var(--font-body);letter-spacing:.08em;color:#08645f}progress{width:min(100%,320px);height:15px;accent-color:#08736e}.search-tools{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center;margin:.7rem 0}.search-tools button,#resetQuiz{background:#fff;border:1px solid #557080;border-radius:6px;padding:.5rem .8rem}.ref-status{font-size:.85rem;background:#e9f7f3;padding:.7rem;border-radius:6px}.ref-status.pending{background:#fff4df;color:#624509}.reference-item:target{outline:3px solid #08736e;outline-offset:4px}#refSearch{width:100%;min-height:44px;padding:.6rem}.complete-module{width:20px;height:20px;vertical-align:middle}.lesson-end label{display:inline-flex;align-items:center;gap:.5rem;min-height:44px}.academic-panel{scroll-margin-top:1rem;min-width:0}.quiz-option[aria-pressed=true]::before{content:'✓';font-weight:bold}.oais-node[aria-pressed=true] rect{stroke:#08736e;stroke-width:4}.ref-back-link{font-size:.85rem;min-height:44px}.study-bar{position:static}summary{cursor:pointer;padding:1rem;font-weight:600}a{overflow-wrap:anywhere}@media(max-width:640px){.quick-nav-btn{flex:1 1 45%}.charter-meta-strip{display:block}.charter-meta-item{margin:.7rem 0}.data-table-wrapper{overflow:visible}#typologyTable thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}#typologyTable,#typologyTable tbody,#typologyTable tr,#typologyTable td{display:block;width:100%;box-sizing:border-box}#typologyTable tr{border:1px solid #d9e5e8;margin:1rem 0}#typologyTable td::before{content:attr(data-label);display:block;font-weight:700;color:#08645f}}@media print{.study-bar,.lesson-end,.search-tools,#resetQuiz{display:none}.academic-panel[hidden]{display:block!important}}</style></head>
+<body><a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+<!-- Full-Bleed Academic Title Band (Charter Signature) -->
+<header class="charter-hero" id="topo">
+<div class="charter-hero-inner">
+<div class="charter-tag">
+<i data-lucide="book-open" style="width:16px;height:16px;"></i>
+<span>Ciência da Informação • Conteúdos Digitais • Preservação e Curadoria</span>
+</div>
+<h1>Preservação de Longo Prazo de Conteúdos Digitais</h1>
+<div class="charter-hero-subtitle">
         Nota de aula integral sobre conceitos fundamentais, requisitos arquivísticos, estratégias operacionais, tipologias de conteúdo digital e modelos sistêmicos de suporte (OAIS, PREMIS, METS, RODA e LOCKSS).
       </div>
-      <div class="charter-meta-strip">
-        <div class="charter-meta-item">
-          <i data-lucide="user" style="width:14px;height:14px;"></i>
-          <span>Design Instrucional e Autoria Didática: <strong>Profa. Dra. Andréa Soares Rocha da Silva</strong></span>
-        </div>
-        <div class="charter-meta-item">
-          <i data-lucide="award" style="width:14px;height:14px;"></i>
-          <span>Corpus Teórico: <strong>Danilo Formenton, Luciana Gracioso, Márdero Arellano, Bullock, Thibodeau, Ferreira, Hedstrom</strong></span>
-        </div>
-        <div class="charter-meta-item">
-          <i data-lucide="check-circle" style="width:14px;height:14px;"></i>
-          <span>Normatização: <strong>ABNT NBR 15472 / ISO 14721 · Citações: ABNT NBR 10520:2023 · Referências: ABNT NBR 6023:2020</strong></span>
-        </div>
-        <div class="charter-meta-item">
-          <i data-lucide="calendar" style="width:14px;height:14px;"></i>
-          <span>Edição Revisada: <strong>2026</strong></span>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <!-- Interactive Study Navigation Bar & Filter -->
-  <div class="study-bar">
-    <div class="study-bar-controls">
-      <nav id="menu" tabindex="-1" class="quick-nav" aria-label="Navegação pelos módulos da nota de aula">
-        <a href="#modulo-1" class="quick-nav-btn"><i data-lucide="layers" style="width:13px;height:13px;"></i> 1. Fundamentos</a>
-        <a href="#modulo-2" class="quick-nav-btn"><i data-lucide="check-square" style="width:13px;height:13px;"></i> 2. Requisitos</a>
-        <a href="#modulo-3" class="quick-nav-btn"><i data-lucide="cpu" style="width:13px;height:13px;"></i> 3. Estratégias</a>
-        <a href="#modulo-4" class="quick-nav-btn"><i data-lucide="file-spreadsheet" style="width:13px;height:13px;"></i> 4. Tipologias</a>
-        <a href="#modulo-5" class="quick-nav-btn"><i data-lucide="git-merge" style="width:13px;height:13px;"></i> 5. OAIS &amp; Padrões</a>
-        <a href="#modulo-6" class="quick-nav-btn"><i data-lucide="help-circle" style="width:13px;height:13px;"></i> 6. Autoavaliação</a>
-        <a href="#modulo-7" class="quick-nav-btn"><i data-lucide="bookmark" style="width:13px;height:13px;"></i> 7. Referências ABNT</a>
-      </nav>
-      <div class="search-box-wrapper">
-        <i data-lucide="search" class="search-icon"></i>
-        <input type="text" id="searchTermInput" class="search-input" placeholder="Pesquisar conceito na aula (ex: emulação, OAIS)..." oninput="filtrarTextoAula()">
-      </div>
-    </div>
-  </div>
-
-  <main class="page-grid">
-
-    <!-- ========================================== -->
-    <!-- MÓDULO 1: FUNDAMENTOS CONCEITUAIS          -->
-    <!-- ========================================== -->
-    <article id="modulo-1" class="academic-panel">
-      <h2>1. Fundamentos Epistemológicos e a Ontologia do Objeto Digital</h2>
-      
-      <p class="lead">
-        A preservação digital não constitui um fim em si mesmo, mas um compromisso ético e científico de gestão continuada destinado a viabilizar o acesso utilizável, a autenticidade e a integridade de ativos informacionais através de gerações tecnológicas mutáveis (<a href="#ref-hedstrom-1996" class="cite-link">Hedstrom, 1996</a>; <a href="#ref-formenton-2020" class="cite-link">Formenton; Gracioso, 2020</a>).
+<div class="charter-meta-strip">
+<div class="charter-meta-item">
+<i data-lucide="user" style="width:14px;height:14px;"></i>
+<span>Design Instrucional e Autoria Didática: <strong>Profa. Dra. Andréa Soares Rocha da Silva</strong></span>
+</div>
+<div class="charter-meta-item">
+<i data-lucide="award" style="width:14px;height:14px;"></i>
+<span>Corpus Teórico: <strong>Danilo Formenton, Luciana Gracioso, Márdero Arellano, Bullock, Thibodeau, Ferreira, Hedstrom</strong></span>
+</div>
+<div class="charter-meta-item">
+<i data-lucide="check-circle" style="width:14px;height:14px;"></i>
+<span>Modelo de referência: <strong>OAIS</strong> · Citações e referências: sistema autor-data com indicação das fontes consultadas</span>
+</div>
+<div class="charter-meta-item">
+<i data-lucide="calendar" style="width:14px;height:14px;"></i>
+<span>Edição Revisada: <strong>2026</strong></span>
+</div>
+</div>
+</div>
+</header>
+<!-- Interactive Study Navigation Bar & Filter -->
+<div class="study-bar">
+<div class="study-bar-controls">
+<nav aria-label="Navegação pelos módulos da nota de aula" class="quick-nav" id="menu" tabindex="-1">
+<a class="quick-nav-btn" href="#modulo-1"><i data-lucide="layers" style="width:13px;height:13px;"></i> 1. Fundamentos</a>
+<a class="quick-nav-btn" href="#modulo-2"><i data-lucide="check-square" style="width:13px;height:13px;"></i> 2. Requisitos</a>
+<a class="quick-nav-btn" href="#modulo-3"><i data-lucide="cpu" style="width:13px;height:13px;"></i> 3. Estratégias</a>
+<a class="quick-nav-btn" href="#modulo-4"><i data-lucide="file-spreadsheet" style="width:13px;height:13px;"></i> 4. Tipologias</a>
+<a class="quick-nav-btn" href="#modulo-5"><i data-lucide="git-merge" style="width:13px;height:13px;"></i> 5. OAIS &amp; Padrões</a>
+<a class="quick-nav-btn" href="#modulo-6"><i data-lucide="help-circle" style="width:13px;height:13px;"></i> 6. Autoavaliação</a>
+<a class="quick-nav-btn" href="#modulo-7"><i data-lucide="bookmark" style="width:13px;height:13px;"></i> 7. Referências ABNT</a>
+</nav>
+<div class="search-box-wrapper">
+<i class="search-icon" data-lucide="search"></i>
+<input aria-label="Pesquisar módulos da aula" class="search-input" id="searchTermInput" oninput="filtrarTextoAula()" placeholder="Pesquisar conceito na aula (ex: emulação, OAIS)..." type="text"/>
+</div>
+</div>
+<div class="search-tools"><button id="clearSearch" type="button">Limpar busca</button><span aria-live="polite" id="searchStatus" role="status"></span></div></div>
+<main class="page-grid" id="conteudo"><section class="academic-panel" id="roteiro"><p class="eyebrow">SEU PERCURSO DE APRENDIZAGEM</p><h2>Guardar é suficiente para preservar?</h2><p>Imagine abrir, daqui a vinte anos, um recurso educacional criado hoje. O arquivo está lá, mas o programa deixou de existir. Como manter seu conteúdo compreensível e suas atividades funcionando?</p><p>Nesta aula, você vai distinguir as camadas do objeto digital, relacionar riscos e estratégias e explicar como o OAIS organiza a preservação. Comece pelos fundamentos, experimente o simulador e finalize com a autoavaliação. Você também pode consultar os módulos na ordem de que precisar.</p><p id="progressText" role="status"></p><progress aria-label="Módulos concluídos" id="studyProgress" max="6" value="0"></progress> <a class="btn-action" href="#modulo-1">Começar pelos fundamentos</a><p id="resumeLink"></p><small>Marque cada módulo ao concluir. O progresso fica neste navegador quando o armazenamento local estiver disponível.</small></section>
+<!-- ========================================== -->
+<!-- MÓDULO 1: FUNDAMENTOS CONCEITUAIS          -->
+<!-- ========================================== -->
+<article class="academic-panel" id="modulo-1">
+<h2>1. Fundamentos: compreender o objeto digital</h2><div class="learning-prompt"><strong>Um arquivo intacto pode se tornar inacessível?</strong><p>Pense em um documento de texto antigo: o suporte, o formato e o significado precisam ser considerados juntos. Selecione cada camada e compare seus riscos.</p></div>
+<p class="lead">
+        A preservação digital não constitui um fim em si mesmo, mas um compromisso ético e científico de gestão continuada destinado a viabilizar o acesso utilizável, a autenticidade e a integridade de ativos informacionais através de gerações tecnológicas mutáveis (<a class="cite-link" data-original="ref-hedstrom-1996" href="#ref-arellano-2004">Hedstrom, 1996 <em>apud</em> Arellano, 2004, p. 17</a>; <a class="cite-link" href="#ref-formenton-2020">Formenton; Gracioso, 2020</a>).
       </p>
-
-      <p>
-        As sociedades contemporâneas dependem visceralmente dos fluxos de dados estruturados em Tecnologias da Informação e Comunicação (TIC). Todavia, ao passo que a <em>World Wide Web</em> concebida por Tim Berners-Lee em 1989 desencadeou uma expansão documental sem precedentes, introduziu também a fragilidade extrema da efemeridade digital. Conforme advertiu o pioneiro da Internet Vinton Cerf, a humanidade corre o risco tangível de legar ao futuro uma <em>"Idade das Trevas Digital"</em>, em virtude da rápida degradação física dos suportes e da obsolescência vertiginosa de códigos, sistemas operacionais e hardwares (<a href="#ref-formenton-2020" class="cite-link">Formenton; Gracioso, 2020</a>; <a href="#ref-arellano-2008" class="cite-link">Márdero Arellano, 2008</a>).
-      </p>
-
-      <div class="callout-box">
-        <h4><i data-lucide="info" style="width:16px;height:16px;"></i> Distinção Arquivística: Documento Eletrônico versus Documento Digital</h4>
-        <p style="margin-bottom:0;">
-          Na arquivística contemporânea, <strong>documento eletrônico</strong> é qualquer unidade produzida ou reproduzida mediante aparelhos eletrônicos analógicos ou digitais (como fitas VHS, audiocassetes e telegráficos). Por sua vez, o <strong>documento digital</strong> é um subtipo estrito dos documentos eletrônicos, codificado unicamente sob cadeias de dígitos binários (<em>bitstream</em> de zeros e uns), cuja decodificação, leitura e renderização exigem obrigatoriamente circuitos lógicos e processamento computacional (<a href="#ref-bode-2016" class="cite-link">Bodê, 2016</a>; <a href="#ref-arellano-2008" class="cite-link">Márdero Arellano, 2008</a>; <a href="#ref-santos-flores-2015" class="cite-link">Santos; Flores, 2015</a>).
-        </p>
-      </div>
-
-      <h3>1.1 As Três Camadas Constituintes do Objeto Digital</h3>
-      <p>
-        Diferentemente de documentos tradicionais sobre papel ou pergaminho, nos quais o conteúdo intelectual acha-se indissoluvelmente fundido ao suporte físico, o objeto digital caracteriza-se pela sua <strong>dissociabilidade ontológica</strong>. Autores fundamentais como <a href="#ref-webb-1999" class="cite-link">Webb (1999)</a>, <a href="#ref-thibodeau-2002" class="cite-link">Thibodeau (2002)</a>, <a href="#ref-unesco-2003" class="cite-link">UNESCO (2003)</a> e <a href="#ref-arellano-2008" class="cite-link">Márdero Arellano (2008)</a> categorizam a preservação digital em três camadas interdependentes:
-      </p>
-
-      <!-- Interactive Layer Selector -->
-      <div class="layers-container" id="layersExplorer">
-        <div class="layer-card layer-physical active" onclick="selecionarCamada('physical')">
-          <div class="layer-header">
-            <h4 class="layer-title"><i data-lucide="hard-drive" style="width:18px;height:18px;"></i> Camada Física</h4>
-            <span class="layer-badge">Nível 1 • Suporte</span>
-          </div>
-          <p style="font-size:0.88rem; margin:0;">
+<p>Você já tentou abrir um arquivo antigo e descobriu que o programa necessário não estava mais disponível? A degradação dos suportes e a obsolescência de hardware e software podem comprometer o acesso, mesmo quando o arquivo ainda está guardado (<a class="cite-link" href="#ref-formenton-2020">Formenton; Gracioso, 2020, p. 3–5</a>).</p>
+<div class="callout-box">
+<h4><i data-lucide="info" style="width:16px;height:16px;"></i> Distinção Arquivística: Documento Eletrônico versus Documento Digital</h4>
+<p style="margin-bottom:0;"><strong>Documento eletrônico</strong> pode ser produzido ou reproduzido por meios eletrônicos analógicos ou digitais. O <strong>documento digital</strong> utiliza codificação digital e depende de equipamentos e programas para sua leitura. A distinção evita confundir, por exemplo, uma fita VHS analógica com um arquivo de vídeo digital (<a class="cite-link" href="#ref-bode-2016">Bodê, 2016</a>).</p>
+</div>
+<h3>1.1 As Três Camadas Constituintes do Objeto Digital</h3>
+<p>Um objeto digital depende de suporte, codificação e interpretação. Para compreender essas dependências, vamos explorar as camadas física, lógica e conceitual. Essa distinção ajuda a perceber por que copiar os bits pode não bastar para manter o conteúdo compreensível (<a class="cite-link" href="#ref-thibodeau-2002">Thibodeau, 2002</a>; <a class="cite-link" href="#ref-corujo-2014">Corujo, 2014, p. 22–24</a>).</p>
+<!-- Interactive Layer Selector -->
+<div class="layers-container" id="layersExplorer">
+<button aria-pressed="false" class="layer-card layer-physical active" onclick="selecionarCamada('physical')" type="button">
+<div class="layer-header">
+<h4 class="layer-title"><i data-lucide="hard-drive" style="width:18px;height:18px;"></i> Camada Física</h4>
+<span class="layer-badge">Nível 1 • Suporte</span>
+</div>
+<p style="font-size:0.88rem; margin:0;">
             A matéria tangível onde os sinais são gravados: mídias magnéticas, discos ópticos e módulos semicondutores.
           </p>
-        </div>
-
-        <div class="layer-card layer-logical" onclick="selecionarCamada('logical')">
-          <div class="layer-header">
-            <h4 class="layer-title"><i data-lucide="binary" style="width:18px;height:18px;"></i> Camada Lógica</h4>
-            <span class="layer-badge">Nível 2 • Bitstream</span>
-          </div>
-          <p style="font-size:0.88rem; margin:0;">
+</button>
+<button aria-pressed="false" class="layer-card layer-logical" onclick="selecionarCamada('logical')" type="button">
+<div class="layer-header">
+<h4 class="layer-title"><i data-lucide="binary" style="width:18px;height:18px;"></i> Camada Lógica</h4>
+<span class="layer-badge">Nível 2 • Bitstream</span>
+</div>
+<p style="font-size:0.88rem; margin:0;">
             A série de bits (0s e 1s), formatos de codificação, esquemas de compressão e protocolos interpretadores.
           </p>
-        </div>
-
-        <div class="layer-card layer-conceptual" onclick="selecionarCamada('conceptual')">
-          <div class="layer-header">
-            <h4 class="layer-title"><i data-lucide="eye" style="width:18px;height:18px;"></i> Camada Conceitual</h4>
-            <span class="layer-badge">Nível 3 • Intelectual</span>
-          </div>
-          <p style="font-size:0.88rem; margin:0;">
+</button>
+<button aria-pressed="false" class="layer-card layer-conceptual" onclick="selecionarCamada('conceptual')" type="button">
+<div class="layer-header">
+<h4 class="layer-title"><i data-lucide="eye" style="width:18px;height:18px;"></i> Camada Conceitual</h4>
+<span class="layer-badge">Nível 3 • Intelectual</span>
+</div>
+<p style="font-size:0.88rem; margin:0;">
             O conteúdo semântico inteligível ao ser humano, sua representação visual, estilo, layout e funcionalidades dinâmicas.
           </p>
-        </div>
-      </div>
-
-      <!-- Layer Detailed Panel -->
-      <div id="layerDetailPanel" class="layer-detail-view">
-        <h4 id="layerDetailTitle" style="color:var(--primary); margin-top:0;">Camada Física: Salvaguarda da Mídia e Estabilidade Magnética</h4>
-        <div id="layerDetailContent">
-          <p>
-            Centra-se na conservação e refrescamento dos suportes físicos onde as sequências binárias residem (fitas LTO, discos rígidos corporativos, ópticos e matrizes SSD). Ameaças críticas: degradação química, perda de magnetização, delaminação óptica e obsolescência mecânica de unidades de leitura (drives). Estratégias típicas: recópia periódica e armazenamento em ambiente climatizado (<a href="#ref-arellano-2004" class="cite-link">Márdero Arellano, 2004</a>; <a href="#ref-ferreira-2006" class="cite-link">Ferreira, 2006</a>).
-          </p>
-        </div>
-      </div>
-
-      <h3>1.2 A Tríade da Confiabilidade Arquivística: Autenticidade, Fidedignidade e Integridade</h3>
-      <p>
-        A manipulação e a migração contínua dos objetos digitais ensejam riscos agudos de adulteração inadvertida ou deliberada. Por conseguinte, a preservação orienta-se por postulados teóricos consolidados pela diplomática arquivística (<a href="#ref-barbedo-2011" class="cite-link">Barbedo; Corujo; Sant'Ana, 2011</a>; <a href="#ref-arquivo-nacional-2016" class="cite-link">Arquivo Nacional, 2016</a>):
+</button>
+</div>
+<!-- Layer Detailed Panel -->
+<div aria-atomic="true" aria-live="polite" class="layer-detail-view" id="layerDetailPanel">
+<h4 id="layerDetailTitle" style="color:var(--primary); margin-top:0;">Camada Física: Salvaguarda da Mídia e Estabilidade Magnética</h4>
+<div id="layerDetailContent">
+<p>A camada física envolve os suportes em que os dados são registrados. É preciso acompanhar a degradação das mídias e a disponibilidade dos dispositivos de leitura. O refrescamento transfere a informação para outro suporte antes que o anterior se deteriore ou fique obsoleto (<a class="cite-link" href="#ref-arellano-2004">Arellano, 2004, p. 17–18</a>; <a class="cite-link" data-original="ref-ferreira-2006" href="#ref-formenton-2020">Ferreira, 2006 <em>apud</em> Formenton; Gracioso, 2020, p. 13–14</a>).</p>
+</div>
+</div>
+<h3>1.2 A Tríade da Confiabilidade Arquivística: Autenticidade, Fidedignidade e Integridade</h3>
+<p>
+        A manipulação e a migração contínua dos objetos digitais ensejam riscos agudos de adulteração inadvertida ou deliberada. Por conseguinte, a preservação orienta-se por postulados teóricos consolidados pela diplomática arquivística (<a class="cite-link" data-original="ref-barbedo-2011" href="#ref-formenton-2020">Barbedo; Corujo; Sant’Ana, 2011 <em>apud</em> Formenton; Gracioso, 2020, p. 4–5, 10</a>; <a class="cite-link" data-original="ref-arquivo-nacional-2016" href="#ref-formenton-2020">Arquivo Nacional, 2016 <em>apud</em> Formenton; Gracioso, 2020, p. 4–5, 10</a>):
       </p>
-
-      <ul>
-        <li>
-          <strong>Autenticidade:</strong> propriedade atestada de um documento ser precisamente aquilo que pretende ser, livre de corrupções, falsificações ou alterações não registradas. A autenticidade ampara-se na identidade (origem, data, autor, signatário) e na integridade comprovada (<a href="#ref-barbedo-2011" class="cite-link">Barbedo; Corujo; Sant'Ana, 2011</a>).
-        </li>
-        <li>
-          <strong>Fidedignidade:</strong> vincula-se à capacidade documental de retratar com exatidão o fato para o qual foi produzido, conservando sua plena força de prova e efeitos jurídicos originais (<a href="#ref-santos-flores-2014" class="cite-link">Santos; Flores, 2014</a>).
-        </li>
-        <li>
-          <strong>Integridade e Fixidez:</strong> garantia de plenitude do objeto, certificando que o conteúdo, a estrutura lógica e as relações de proveniência mantiveram-se incólumes ao longo de migrações e auditorias de <em>checksum</em> criptográfico (<a href="#ref-arquivo-nacional-2016" class="cite-link">Arquivo Nacional, 2016</a>; <a href="#ref-interpares-2002" class="cite-link">Interpares, 2002</a>).
-        </li>
-        <li>
-          <strong>Cadeia de Custódia Ininterrupta:</strong> manutenção documental estrita sob a guarda de custodiantes legítimos, com trilha de auditoria completa documentando qualquer evento técnico sobre o arquivo desde o momento da ingestão (<a href="#ref-santos-flores-2015" class="cite-link">Santos; Flores, 2015</a>; <a href="#ref-conarq-2015" class="cite-link">CONARQ, 2015</a>).
-        </li>
-      </ul>
-
-      <div class="quote-box">
+<ul>
+<li><strong>Autenticidade:</strong> possibilidade de demonstrar que o documento é aquilo que declara ser e não sofreu alterações não autorizadas (<a class="cite-link" data-original="ref-barbedo-2011" href="#ref-formenton-2020">Barbedo; Corujo; Sant’Ana, 2011 <em>apud</em> Formenton; Gracioso, 2020, p. 4–5, 10</a>).</li>
+<li><strong>Fidedignidade:</strong> relaciona-se à custódia e à capacidade de o documento manter seus efeitos como registro, incorporando autenticidade e integridade (<a class="cite-link" data-original="ref-santos-flores-2014" href="#ref-formenton-2020">Santos; Flores, 2014 <em>apud</em> Formenton; Gracioso, 2020, p. 5</a>).</li>
+<li><strong>Integridade e fixidez:</strong> envolvem a manutenção da completude do documento e o controle de alterações. Informações de proveniência, contexto e verificação devem acompanhar o objeto; a fixidez, isoladamente, não comprova toda a sua autenticidade (<a class="cite-link" href="#ref-formenton-2020">Formenton; Gracioso, 2020, p. 4–5</a>; <a class="cite-link" href="#ref-corujo-2014">Corujo, 2014, p. 72–74</a>).</li>
+<li><strong>Custódia e histórico de intervenções:</strong> documentar a origem, os responsáveis e as ações realizadas permite acompanhar a trajetória do objeto e apoiar sua avaliação de autenticidade (<a class="cite-link" href="#ref-formenton-2020">Formenton; Gracioso, 2020, p. 7</a>; <a class="cite-link" href="#ref-souza-aganette-2022">Souza; Aganette, 2022, p. 3–5</a>).</li>
+</ul>
+<div class="quote-box">
         "A preservação digital refere-se a um processo de gestão organizacional que abrange várias atividades necessárias para garantir que um objeto digital possa ser acessado, recuperado e utilizado no futuro, a partir das TIC existentes na época e com garantias de autenticidade."
         <span class="quote-author">— Grácio, Fadel e Valentim (2013, p. 113)</span>
-      </div>
-      <a href="#menu" class="quick-nav-btn back-to-menu">
-        <i data-lucide="arrow-up" aria-hidden="true" style="width:16px;height:16px;"></i> Voltar ao menu
+</div>
+<a class="quick-nav-btn back-to-menu" href="#menu">
+<i aria-hidden="true" data-lucide="arrow-up" style="width:16px;height:16px;"></i> Voltar ao menu
       </a>
-    </article>
-
-    <!-- ========================================== -->
-    <!-- MÓDULO 2: REQUISITOS DE PRESERVAÇÃO        -->
-    <!-- ========================================== -->
-    <article id="modulo-2" class="academic-panel">
-      <h2>2. Requisitos Arquivísticos e Princípios da Preservação</h2>
-
-      <p>
-        Para que a custódia não resulte em perdas cumulativas, a literatura especializada estruturou requisitos técnicos e arquivísticos indispensáveis à execução de políticas de preservação (<a href="#ref-bullock-1999" class="cite-link">Bullock, 1999</a>; <a href="#ref-innarelli-2009" class="cite-link">Innarelli, 2009</a>; <a href="#ref-formenton-2020" class="cite-link">Formenton; Gracioso, 2020</a>).
+<div class="learning-prompt"><strong>E no seu acervo pessoal?</strong><p>Fotografias, mensagens e documentos pessoais também dependem de decisões sobre organização, formatos e acesso. O estudo de Martins e colaboradores discute esses desafios para além dos acervos institucionais (<a class="cite-link" href="#ref-martins-2025">Martins et al., 2025, p. 1–4</a>). Que parte do seu acervo exigiria atenção primeiro?</p></div><div class="lesson-end"><strong>Para levar com você</strong><p>Preservar envolve manter condições de acesso, interpretação e uso; a cópia isolada não resolve todos os riscos.</p><label><input class="complete-module" data-module="1" type="checkbox"/> Concluí este módulo</label> <a class="quick-nav-btn" href="#modulo-2">Próximo módulo →</a></div></article>
+<!-- ========================================== -->
+<!-- MÓDULO 2: REQUISITOS DE PRESERVAÇÃO        -->
+<!-- ========================================== -->
+<article class="academic-panel" id="modulo-2">
+<h2>2. Requisitos Arquivísticos e Princípios da Preservação</h2><div class="learning-prompt"><strong>O que uma política de preservação precisa assegurar?</strong><p>Leia os requisitos e pense em um acervo da sua instituição. Quem decide o que guardar, como documentar mudanças e como recuperar os arquivos?</p></div>
+<p>
+        Para que a custódia não resulte em perdas cumulativas, a literatura especializada estruturou requisitos técnicos e arquivísticos indispensáveis à execução de políticas de preservação (<a class="cite-link" data-original="ref-bullock-1999" href="#ref-arellano-2004">Bullock, 1999 <em>apud</em> Arellano, 2004, p. 18</a>; <a class="cite-link" data-original="ref-innarelli-2009" href="#ref-formenton-2020">Innarelli, 2009 <em>apud</em> Formenton; Gracioso, 2020, p. 6</a>; <a class="cite-link" href="#ref-formenton-2020">Formenton; Gracioso, 2020</a>).
       </p>
-
-      <h3>2.1 Os Nove Requisitos Clássicos de Alison Bullock (1999)</h3>
-      <p>
-        Em estudo seminal para a <em>National Library of Canada</em>, Alison <a href="#ref-bullock-1999" class="cite-link">Bullock (1999)</a> demarcou os parâmetros que distinguem a mera guarda de arquivos da preservação digital legítima:
+<h3>2.1 Nove requisitos de preservação apresentados por Bullock</h3>
+<p>A lista a seguir é uma adaptação didática dos nove requisitos de Bullock, apresentados por Arellano. Os exemplos entre parênteses são explicações deste recurso (<a class="cite-link" data-original="ref-bullock-1999" href="#ref-arellano-2004">Bullock, 1999 <em>apud</em> Arellano, 2004, p. 18</a>).</p>
+<div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:var(--space-md); margin-bottom:var(--space-lg);">
+<div style="background:var(--surface-container); padding:var(--space-md); border-left:3px solid var(--tertiary);">
+<strong>1. Fixação dos Limites do Objeto:</strong> delimitar a integralidade do objeto composto em redes e hipertextos.
+        </div>
+<div style="background:var(--surface-container); padding:var(--space-md); border-left:3px solid var(--tertiary);">
+<strong>2. Preservar a Presença Física:</strong> salvaguardar o fluxo binário fundamental sem corrupção de setores.
+        </div>
+<div style="background:var(--surface-container); padding:var(--space-md); border-left:3px solid var(--tertiary);">
+<strong>3. Preservar o Conteúdo:</strong> garantir o acesso aos dados conceituais fundamentais (ex: texto base).
+        </div>
+<div style="background:var(--surface-container); padding:var(--space-md); border-left:3px solid var(--tertiary);">
+<strong>4. Preservar a Apresentação:</strong> manter o arranjo formal, tipografias, paginação e <em>look-and-feel</em>.
+        </div>
+<div style="background:var(--surface-container); padding:var(--space-md); border-left:3px solid var(--tertiary);">
+<strong>5. Preservar a Funcionalidade:</strong> sustentar dinâmicas interativas, scripts, buscas e hiperlinks.
+        </div>
+<div style="background:var(--surface-container); padding:var(--space-md); border-left:3px solid var(--tertiary);">
+<strong>6. Preservar a Autenticidade:</strong> atestar que as cópias geradas são versões fiéis e autorizadas.
+        </div>
+<div style="background:var(--surface-container); padding:var(--space-md); border-left:3px solid var(--tertiary);">
+<strong>7. Localização e Rastreabilidade:</strong> identificar de modo persistente o objeto (URIs, DOIs, Handles).
+        </div>
+<div style="background:var(--surface-container); padding:var(--space-md); border-left:3px solid var(--tertiary);">
+<strong>8. Preservar a Proveniência:</strong> registrar a linhagem de custódia e histórico de intervenções técnicas.
+        </div>
+<div style="background:var(--surface-container); padding:var(--space-md); border-left:3px solid var(--tertiary);">
+<strong>9. Preservar o Contexto:</strong> descrever as dependências de hardware, software e relações documentais.
+        </div>
+</div>
+<h3>2.2 Os Cinco Requisitos Síntese de Formenton e Gracioso (2020)</h3>
+<p>
+        Articulando as formulações de <a class="cite-link" href="#ref-arellano-2004">Bullock (1999 <em>apud</em> Arellano, 2004, p. 18)</a>, <a class="cite-link" href="#ref-formenton-2020">Thomaz; Soares (2004 <em>apud</em> Formenton; Gracioso, 2020, p. 6, 8)</a> e <a class="cite-link" href="#ref-formenton-2020">Innarelli (2014 <em>apud</em> Formenton; Gracioso, 2020, p. 6)</a> com o Modelo OAIS, <a class="cite-link" href="#ref-formenton-2020">Formenton e Gracioso (2020)</a> condensaram os requisitos em cinco eixos reitores para políticas institucionais:
       </p>
-
-      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); gap:var(--space-md); margin-bottom:var(--space-lg);">
-        <div style="background:var(--surface-container); padding:var(--space-md); border-left:3px solid var(--tertiary);">
-          <strong>1. Fixação dos Limites do Objeto:</strong> delimitar a integralidade do objeto composto em redes e hipertextos.
-        </div>
-        <div style="background:var(--surface-container); padding:var(--space-md); border-left:3px solid var(--tertiary);">
-          <strong>2. Preservar a Presença Física:</strong> salvaguardar o fluxo binário fundamental sem corrupção de setores.
-        </div>
-        <div style="background:var(--surface-container); padding:var(--space-md); border-left:3px solid var(--tertiary);">
-          <strong>3. Preservar o Conteúdo:</strong> garantir o acesso aos dados conceituais fundamentais (ex: texto base).
-        </div>
-        <div style="background:var(--surface-container); padding:var(--space-md); border-left:3px solid var(--tertiary);">
-          <strong>4. Preservar a Apresentação:</strong> manter o arranjo formal, tipografias, paginação e <em>look-and-feel</em>.
-        </div>
-        <div style="background:var(--surface-container); padding:var(--space-md); border-left:3px solid var(--tertiary);">
-          <strong>5. Preservar a Funcionalidade:</strong> sustentar dinâmicas interativas, scripts, buscas e hiperlinks.
-        </div>
-        <div style="background:var(--surface-container); padding:var(--space-md); border-left:3px solid var(--tertiary);">
-          <strong>6. Preservar a Autenticidade:</strong> atestar que as cópias geradas são versões fiéis e autorizadas.
-        </div>
-        <div style="background:var(--surface-container); padding:var(--space-md); border-left:3px solid var(--tertiary);">
-          <strong>7. Localização e Rastreabilidade:</strong> identificar de modo persistente o objeto (URIs, DOIs, Handles).
-        </div>
-        <div style="background:var(--surface-container); padding:var(--space-md); border-left:3px solid var(--tertiary);">
-          <strong>8. Preservar a Proveniência:</strong> registrar a linhagem de custódia e histórico de intervenções técnicas.
-        </div>
-        <div style="background:var(--surface-container); padding:var(--space-md); border-left:3px solid var(--tertiary);">
-          <strong>9. Preservar o Contexto:</strong> descrever as dependências de hardware, software e relações documentais.
-        </div>
-      </div>
-
-      <h3>2.2 Os Cinco Requisitos Síntese de Formenton e Gracioso (2020)</h3>
-      <p>
-        Articulando as formulações de <a href="#ref-bullock-1999" class="cite-link">Bullock (1999)</a>, <a href="#ref-thomaz-soares-2004" class="cite-link">Thomaz e Soares (2004)</a> e <a href="#ref-innarelli-2014" class="cite-link">Innarelli (2014)</a> com o Modelo OAIS, <a href="#ref-formenton-2020" class="cite-link">Formenton e Gracioso (2020)</a> condensaram os requisitos em cinco eixos reitores para políticas institucionais:
-      </p>
-
-      <ol style="padding-left:var(--space-lg); line-height:1.75;">
-        <li>
-          <strong>Manutenção de uma Política Institucional Ativa:</strong> formulação formal de diretrizes, metas de seleção documental, modelos de custos sustentáveis e compromisso administrativo perene.
+<ol style="padding-left:var(--space-lg); line-height:1.75;">
+<li>
+<strong>Manutenção de uma Política Institucional Ativa:</strong> formulação formal de diretrizes, metas de seleção documental, modelos de custos sustentáveis e compromisso administrativo perene.
         </li>
-        <li>
-          <strong>Garantia de Fidedignidade, Autenticidade e Integridade:</strong> monitoramento constante contra alterações indevidas via somas de verificação (MD5, SHA-256) e trilhas de auditoria transparentes.
-        </li>
-        <li>
-          <strong>Manutenção do Contexto:</strong> registro minucioso dos ambientes tecnológicos de produção e dependências lógicas, fomentando o uso mandatório de formatos abertos normalizados.
-        </li>
-        <li>
-          <strong>Manutenção da Proveniência:</strong> adoção de metadados de preservação estruturados em esquemas globais (como PREMIS e METS), viabilizando a reconstituição da linhagem do arquivo.
-        </li>
-        <li>
-          <strong>Manutenção da Recuperação e Redundância Distribuída:</strong> implementação de protocolos de backup em suportes diversificados e dispersão geográfica de cópias contra catástrofes físicas.
-        </li>
-      </ol>
-      <a href="#menu" class="quick-nav-btn back-to-menu">
-        <i data-lucide="arrow-up" aria-hidden="true" style="width:16px;height:16px;"></i> Voltar ao menu
+<li><strong>Garantir fidedignidade, autenticidade e integridade:</strong> manter a identificação, a localização e as propriedades significativas do objeto durante as ações de preservação.</li>
+<li><strong>Manter o contexto:</strong> documentar dependências tecnológicas, razões de produção, distribuição e relações com outros objetos; priorizar padrões e formatos abertos quando adequados.</li>
+<li><strong>Manter a proveniência:</strong> identificar a origem, a cadeia de custódia e o histórico de alterações por meio de metadados de preservação.</li>
+<li><strong>Manter a recuperação:</strong> revisar as cópias de segurança, separar fisicamente as réplicas e testar a restauração dos dados.</li>
+</ol>
+<a class="quick-nav-btn back-to-menu" href="#menu">
+<i aria-hidden="true" data-lucide="arrow-up" style="width:16px;height:16px;"></i> Voltar ao menu
       </a>
-    </article>
-
-    <!-- ========================================== -->
-    <!-- MÓDULO 3: ESTRATÉGIAS OPERACIONAIS E SIMULADOR -->
-    <!-- ========================================== -->
-    <article id="modulo-3" class="academic-panel">
-      <h2>3. Estratégias de Preservação Digital: Ações Estruturais e Operacionais</h2>
-
-      <p class="lead">
-        Consoante a taxonomia consagrada por <a href="#ref-arellano-2008" class="cite-link">Márdero Arellano (2008)</a> e <a href="#ref-formenton-2020" class="cite-link">Formenton e Gracioso (2020)</a>, as soluções dividem-se em <em>estratégias estruturais</em> (investimentos institucionais prévios em governança, políticas e infraestrutura) e <em>estratégias operacionais</em> (intervenções tecnológicas aplicadas sobre os objetos).
+<div class="lesson-end"><strong>Para levar com você</strong><p>Política, responsabilidades, proveniência, integridade e recuperação precisam funcionar em conjunto.</p><label><input class="complete-module" data-module="2" type="checkbox"/> Concluí este módulo</label> <a class="quick-nav-btn" href="#modulo-3">Próximo módulo →</a></div></article>
+<!-- ========================================== -->
+<!-- MÓDULO 3: ESTRATÉGIAS OPERACIONAIS E SIMULADOR -->
+<!-- ========================================== -->
+<article class="academic-panel" id="modulo-3">
+<h2>3. Estratégias de Preservação Digital: Ações Estruturais e Operacionais</h2><div class="learning-prompt"><strong>Qual estratégia atende ao seu objeto digital?</strong><p>Compare migração e emulação. Depois altere as três variáveis do simulador e observe como o plano de ação muda.</p></div>
+<p class="lead">
+        Consoante a taxonomia consagrada por <a class="cite-link" href="#ref-arellano-2008">Márdero Arellano (2008)</a> e <a class="cite-link" href="#ref-formenton-2020">Formenton e Gracioso (2020)</a>, as soluções dividem-se em <em>estratégias estruturais</em> (investimentos institucionais prévios em governança, políticas e infraestrutura) e <em>estratégias operacionais</em> (intervenções tecnológicas aplicadas sobre os objetos).
       </p>
-
-      <h3>3.1 Estratégias Estruturais: A Base Institucional</h3>
-      <p>
+<h3>3.1 Estratégias Estruturais: A Base Institucional</h3><p>Antes de escolher ferramentas, observe a organização: gestão documental, planejamento e cultura institucional precisam estar alinhados para sustentar a preservação (<a class="cite-link" href="#ref-souza-aganette-2022">Souza; Aganette, 2022, p. 4–5, 8–11</a>).</p>
+<p>
         Nenhuma tecnologia garante perenidade na ausência de sustentação organizacional. As estratégias estruturais englobam:
       </p>
-      <ul>
-        <li><strong>Adoção de Padrões Abertos:</strong> utilização de especificações públicas e não proprietárias fixadas por entidades como ISO, W3C, NDSA e IIPC (<a href="#ref-santos-flores-2017" class="cite-link">Santos; Flores, 2017</a>).</li>
-        <li><strong>Políticas Institucionais de Preservação Digital (PPD):</strong> planos de preservação orientados por diretrizes da DGARQ de Portugal (<a href="#ref-barbedo-2011" class="cite-link">Barbedo; Corujo; Sant'Ana, 2011</a>) e do Arquivo Nacional (<a href="#ref-arquivo-nacional-2016" class="cite-link">Arquivo Nacional, 2016</a>).</li>
-        <li><strong>Gestão de Custos e Modelos Econômicos:</strong> cálculo orçamentário continuado de pessoal, infraestrutura e armazenamento (<a href="#ref-bote-2013" class="cite-link">Boté; Fernandez-Feijoo; Ruiz, 2013</a>; <a href="#ref-willer-2008" class="cite-link">Willer <em>et al.</em>, 2008</a>).</li>
-        <li><strong>Conformidade Legal:</strong> aderência à Lei de Acesso à Informação (Lei 12.527/11), Direitos Autorais (Lei 9.610/98), LGPD (Lei 13.709/18), Decreto de Digitalização (Dec. 10.278/20) e Resolução nº 43 do CONARQ (<a href="#ref-conarq-2015" class="cite-link">CONARQ, 2015</a>).</li>
-        <li><strong>Formação de Redes de Cooperação:</strong> parcerias consorciadas entre universidades e órgãos de custódia, destacando-se a Rede Cariniana do IBICT (<a href="#ref-farias-2018" class="cite-link">Farias; Araújo; Evangelista, 2018</a>; <a href="#ref-arellano-2012" class="cite-link">Márdero Arellano, 2012</a>).</li>
-      </ul>
-
-      <h3>3.2 Análise Aprofundada das Estratégias Operacionais</h3>
-      <p>
-        As estratégias operacionais incidem diretamente sobre os níveis físico, lógico ou conceitual do objeto (<a href="#ref-thibodeau-2002" class="cite-link">Thibodeau, 2002</a>; <a href="#ref-santos-flores-2017" class="cite-link">Santos; Flores, 2017</a>):
+<ul>
+<li><strong>Adoção de Padrões Abertos:</strong> utilização de especificações públicas e não proprietárias fixadas por entidades como ISO, W3C, NDSA e IIPC (<a class="cite-link" data-original="ref-santos-flores-2017" href="#ref-formenton-2020">Santos; Flores, 2017 <em>apud</em> Formenton; Gracioso, 2020, p. 8–9, 13–14</a>).</li>
+<li><strong>Políticas Institucionais de Preservação Digital (PPD):</strong> planos de preservação orientados por diretrizes da DGARQ de Portugal (<a class="cite-link" data-original="ref-barbedo-2011" href="#ref-formenton-2020">Barbedo; Corujo; Sant’Ana, 2011 <em>apud</em> Formenton; Gracioso, 2020, p. 4–5, 10</a>) e do Arquivo Nacional (<a class="cite-link" data-original="ref-arquivo-nacional-2016" href="#ref-formenton-2020">Arquivo Nacional, 2016 <em>apud</em> Formenton; Gracioso, 2020, p. 4–5, 10</a>).</li>
+<li><strong>Gestão de Custos e Modelos Econômicos:</strong> cálculo orçamentário continuado de pessoal, infraestrutura e armazenamento (<a class="cite-link" data-original="ref-bote-2013" href="#ref-formenton-2020">Boté; Fernandez-Feijoo; Ruiz, 2013 <em>apud</em> Formenton; Gracioso, 2020, p. 16</a>; <a class="cite-link" data-original="ref-willer-2008" href="#ref-formenton-2020">Willer et al., 2008 <em>apud</em> Formenton; Gracioso, 2020, p. 16</a>).</li>
+<li><strong>Conformidade legal:</strong> considerar direitos autorais, proteção de dados, regras de acesso e responsabilidades de custódia. O panorama brasileiro discutido no artigo de 2020 inclui diretrizes de RDC-Arq do CONARQ de 2015; essa menção é histórica, e não uma verificação da vigência normativa atual (<a class="cite-link" data-original="ref-conarq-2015" href="#ref-formenton-2020">CONARQ, 2015 <em>apud</em> Formenton; Gracioso, 2020, p. 10</a>).</li>
+<li><strong>Formação de redes de cooperação:</strong> compartilhar experiências e recursos entre instituições. A literatura discute a Rede Cariniana como exemplo brasileiro de colaboração (<a class="cite-link" data-original="ref-arellano-2012" href="#ref-formenton-2020">Márdero Arellano, 2012 <em>apud</em> Formenton; Gracioso, 2020, p. 12</a>; <a class="cite-link" data-original="ref-farias-2018" href="#ref-formenton-2020">Farias; Araújo; Evangelista, 2018 <em>apud</em> Formenton; Gracioso, 2020, p. 16</a>).</li>
+</ul>
+<h3>3.2 Análise Aprofundada das Estratégias Operacionais</h3><p>Uma distinção útil é entre ações primárias, que alteram o material digital, como a migração, e ações secundárias, que modificam as condições de acesso, como a emulação (<a class="cite-link" data-original="ref-pearson-2009" href="#ref-formenton-2020">Pearson; Del Pozo, 2009 <em>apud</em> Formenton; Gracioso, 2020, p. 8</a>).</p>
+<p>
+        As estratégias operacionais incidem diretamente sobre os níveis físico, lógico ou conceitual do objeto (<a class="cite-link" href="#ref-thibodeau-2002">Thibodeau, 2002</a>; <a class="cite-link" data-original="ref-santos-flores-2017" href="#ref-formenton-2020">Santos; Flores, 2017 <em>apud</em> Formenton; Gracioso, 2020, p. 8–9, 13–14</a>):
       </p>
-
-      <div style="display:grid; grid-template-columns:1fr 1fr; gap:var(--space-md); margin-bottom:var(--space-lg);">
-        <div style="background:var(--surface-container-low); border:var(--hairline); padding:var(--space-md); border-top:3px solid var(--primary);">
-          <h4 style="margin-top:0; color:var(--primary);"><i data-lucide="refresh-cw" style="width:16px;height:16px;"></i> A. Migração</h4>
-          <p style="font-size:0.9rem;">
-            Transferência periódica de dados de ambientes tecnológicos em vias de obsolescência para plataformas contemporâneas estáveis (<a href="#ref-taskforce-1996" class="cite-link">Task Force, 1996</a>; <a href="#ref-hedstrom-2001" class="cite-link">Hedstrom, 2001</a>).
+<div style="display:grid; grid-template-columns:1fr 1fr; gap:var(--space-md); margin-bottom:var(--space-lg);">
+<div style="background:var(--surface-container-low); border:var(--hairline); padding:var(--space-md); border-top:3px solid var(--primary);">
+<h4 style="margin-top:0; color:var(--primary);"><i data-lucide="refresh-cw" style="width:16px;height:16px;"></i> A. Migração</h4>
+<p style="font-size:0.9rem;">
+            Transferência periódica de dados de ambientes tecnológicos em vias de obsolescência para plataformas contemporâneas estáveis (<a class="cite-link" data-original="ref-taskforce-1996" href="#ref-arellano-2004">Task Force on Archiving of Digital Information, 1996 <em>apud</em> Arellano, 2004, p. 20</a>; <a class="cite-link" data-original="ref-hedstrom-2001" href="#ref-formenton-2020">Hedstrom, 2001 <em>apud</em> Formenton; Gracioso, 2020, p. 13</a>).
           </p>
-          <ul style="font-size:0.85rem; padding-left:1.2rem; margin-bottom:0;">
-            <li><strong>Refrescamento:</strong> recópia física entre suportes (ex: fita LTO-5 para LTO-8).</li>
-            <li><strong>Conversão:</strong> transposição de formato (ex: Word 97 para PDF/A-1a).</li>
-            <li><strong>Normalização:</strong> conversão padronizada de formatos no ato do ingresso.</li>
-            <li><strong>Vantagens:</strong> acesso rápido por softwares comuns sem camadas extras.</li>
-            <li><strong>Riscos:</strong> corrupção cumulativa de layout, perda de macros e interatividades (<a href="#ref-rothenberg-2000" class="cite-link">Rothenberg, 2000</a>).</li>
-          </ul>
-        </div>
-
-        <div style="background:var(--surface-container-low); border:var(--hairline); padding:var(--space-md); border-top:3px solid var(--secondary);">
-          <h4 style="margin-top:0; color:var(--secondary);"><i data-lucide="terminal" style="width:16px;height:16px;"></i> B. Emulação</h4>
-          <p style="font-size:0.9rem;">
-            Criação de software emulador moderno que imita a arquitetura de processadores e sistemas operacionais obsoletos (<a href="#ref-rothenberg-1995" class="cite-link">Rothenberg, 1995</a>, <a href="#ref-rothenberg-1999" class="cite-link">1999</a>; <a href="#ref-long-2009" class="cite-link">Long, 2009</a>).
-          </p>
-          <ul style="font-size:0.85rem; padding-left:1.2rem; margin-bottom:0;">
-            <li><strong>Encapsulamento:</strong> empacotamento do dado original juntamente com metadados do ambiente de execução (<a href="#ref-ferreira-2006" class="cite-link">Ferreira, 2006</a>).</li>
-            <li><strong>Vantagens:</strong> preserva o <em>look-and-feel</em> nativo, comportamento e interatividade exatos sem alterar o bitstream original.</li>
-            <li><strong>Riscos:</strong> alta complexidade de engenharia, custo expressivo e risco de obsolescência do próprio software emulador (<a href="#ref-pearson-2009" class="cite-link">Pearson; Del Pozo, 2009</a>).</li>
-          </ul>
-        </div>
-
-        <div style="background:var(--surface-container-low); border:var(--hairline); padding:var(--space-md); border-top:3px solid var(--data-2);">
-          <h4 style="margin-top:0; color:var(--tertiary);"><i data-lucide="archive" style="width:16px;height:16px;"></i> C. Conservação de Tecnologia</h4>
-          <p style="font-size:0.9rem;">
-            Manutenção física de gabinetes, periféricos e sistemas operacionais originais operantes ("Museus Tecnológicos"). Indicado estritamente como solução transitória e suporte à leitura pericial (<a href="#ref-swade-1992" class="cite-link">Swade, 1992</a>; <a href="#ref-thorpe-2015" class="cite-link">Thorpe, 2015</a>).
-          </p>
-        </div>
-
-        <div style="background:var(--surface-container-low); border:var(--hairline); padding:var(--space-md); border-top:3px solid var(--error);">
-          <h4 style="margin-top:0; color:var(--error);"><i data-lucide="search" style="width:16px;height:16px;"></i> D. Arqueologia Digital</h4>
-          <p style="font-size:0.9rem;">
-            Procedimento forense e pericial extremo empregado para resgatar dados em mídias danificadas ou formatos extintos não tratados previamente. Não oferece garantias plenas de integridade e acarreta custos astronômicos (<a href="#ref-galrao-2017" class="cite-link">Galrão, 2017</a>; <a href="#ref-baggio-flores-2012" class="cite-link">Baggio; Flores, 2012</a>).
-          </p>
-        </div>
-      </div>
-
-      <!-- Interactive Tool: Decision Simulator -->
-      <h3>3.3 Simulador Interativo de Decisão Estratégica para Acervos</h3>
-      <p style="font-size:0.92rem; color:var(--on-surface-variant);">
-        Configure as variáveis do acervo institucional abaixo para obter a recomendação fundamentada na literatura técnica (<a href="#ref-thibodeau-2002" class="cite-link">Thibodeau, 2002</a>; <a href="#ref-dpc-2015" class="cite-link">DPC, 2015</a>):
+<ul style="font-size:0.85rem; padding-left:1.2rem; margin-bottom:0;">
+<li><strong>Refrescamento:</strong> recópia física entre suportes (ex: fita LTO-5 para LTO-8).</li>
+<li><strong>Conversão:</strong> transposição de formato (ex: Word 97 para PDF/A-1a).</li>
+<li><strong>Normalização:</strong> conversão padronizada de formatos no ato do ingresso.</li>
+<li><strong>Vantagens:</strong> acesso rápido por softwares comuns sem camadas extras.</li>
+<li><strong>Riscos:</strong> corrupção cumulativa de layout, perda de macros e interatividades (<a class="cite-link" data-original="ref-rothenberg-2000" href="#ref-arellano-2008">Rothenberg, 2000 <em>apud</em> Márdero Arellano, 2008, p. 67</a>).</li>
+</ul>
+</div>
+<div style="background:var(--surface-container-low); border:var(--hairline); padding:var(--space-md); border-top:3px solid var(--secondary);">
+<h4 style="margin-top:0; color:var(--secondary);"><i data-lucide="terminal" style="width:16px;height:16px;"></i> B. Emulação</h4>
+<p style="font-size:0.9rem;">A emulação busca reproduzir o comportamento de tecnologias antigas para permitir o acesso aos objetos em seu formato nativo (<a class="cite-link" href="#ref-rothenberg-1999">Rothenberg, 1999</a>; <a class="cite-link" data-original="ref-long-2009" href="#ref-formenton-2020">Long, 2009 <em>apud</em> Formenton; Gracioso, 2020, p. 14</a>).</p>
+<ul style="font-size:0.85rem; padding-left:1.2rem; margin-bottom:0;">
+<li><strong>Encapsulamento:</strong> empacotamento do dado original juntamente com metadados do ambiente de execução (<a class="cite-link" data-original="ref-ferreira-2006" href="#ref-formenton-2020">Ferreira, 2006 <em>apud</em> Formenton; Gracioso, 2020, p. 13–14</a>).</li>
+<li><strong>Vantagens:</strong> preserva o <em>look-and-feel</em> nativo, comportamento e interatividade, sujeitos à validação sem alterar o bitstream original.</li>
+<li><strong>Riscos:</strong> dependência técnica e possível obsolescência do próprio emulador. A reprodução deve ser testada, e não presumida como exata (<a class="cite-link" href="#ref-formenton-2020">Formenton; Gracioso, 2020, p. 14</a>).</li>
+</ul>
+</div>
+<div style="background:var(--surface-container-low); border:var(--hairline); padding:var(--space-md); border-top:3px solid var(--data-2);">
+<h4 style="margin-top:0; color:var(--tertiary);"><i data-lucide="archive" style="width:16px;height:16px;"></i> C. Conservação de Tecnologia</h4>
+<p style="font-size:0.9rem;">Manutenção dos equipamentos e programas originais para permitir o acesso. Pode ser útil em casos específicos, mas tem dificuldades de custo e sustentabilidade em longo prazo (<a class="cite-link" data-original="ref-swade-1992" href="#ref-arellano-2004">Swade, 1992 <em>apud</em> Arellano, 2004, p. 22</a>). A coleta de equipamentos antigos também é relatada como apoio à recuperação de dados e à emulação (<a class="cite-link" data-original="ref-thorpe-2015" href="#ref-formenton-2020">Thorpe, 2015 <em>apud</em> Formenton; Gracioso, 2020, p. 14</a>).</p>
+</div>
+<div style="background:var(--surface-container-low); border:var(--hairline); padding:var(--space-md); border-top:3px solid var(--error);">
+<h4 style="margin-top:0; color:var(--error);"><i data-lucide="search" style="width:16px;height:16px;"></i> D. Arqueologia Digital</h4>
+<p style="font-size:0.9rem;">Resgate de dados inacessíveis por obsolescência ou degradação dos suportes. Pode ter custos elevados e resultados parciais, sem garantia de recuperação integral (<a class="cite-link" data-original="ref-baggio-flores-2012" href="#ref-formenton-2020">Baggio; Flores, 2012 <em>apud</em> Formenton; Gracioso, 2020, p. 15</a>). Um exemplo de recuperação parcial é relatado por Galrão (2017 <em>apud</em> <a class="cite-link" data-original="ref-galrao-2017" href="#ref-formenton-2020">Formenton; Gracioso, 2020, p. 15</a>).</p>
+</div>
+</div>
+<!-- Interactive Tool: Decision Simulator -->
+<h3>3.3 Simulador Interativo de Decisão Estratégica para Acervos</h3>
+<p style="font-size:0.92rem; color:var(--on-surface-variant);">
+        Configure as variáveis do acervo institucional abaixo para obter a orientação didática baseada na literatura, a ser avaliada no contexto do acervo (<a class="cite-link" href="#ref-thibodeau-2002">Thibodeau, 2002</a>; <a class="cite-link" href="#ref-dpc-2015">DPC, 2015</a>):
       </p>
-
-      <div class="simulator-grid">
-        <div class="sim-controls">
-          <div class="form-group">
-            <label class="form-label" for="simObjectType">Tipologia do Objeto Digital:</label>
-            <select id="simObjectType" class="form-select" onchange="executarSimulador()">
-              <option value="text">Documentos Textuais / Administrativos (Ofícios, Teses, Atas)</option>
-              <option value="interactive">Software, Jogos, Hipermídias &amp; Conteúdos Interativos</option>
-              <option value="data">Bases de Dados Científicas &amp; Séries Estatísticas</option>
-              <option value="web">Portais Web, Mídias Sociais &amp; Websites Governamentais</option>
-              <option value="audio_video">Acervos Audiovisuais Históricos (Vídeo/Som)</option>
-            </select>
-          </div>
-
-          <div class="form-group">
-            <label class="form-label" for="simHorizon">Horizonte Temporal Pretendido:</label>
-            <select id="simHorizon" class="form-select" onchange="executarSimulador()">
-              <option value="indefinite">Longo Prazo Indefinido (&gt; 25 anos / Patrimonial)</option>
-              <option value="medium">Médio Prazo (5 a 20 anos / Vigência Operacional)</option>
-              <option value="short">Curto Prazo (&lt; 5 anos / Suporte Imediato)</option>
-            </select>
-          </div>
-
-          <div class="form-group">
-            <label class="form-label" for="simBudget">Orçamento Institucional Disponível:</label>
-            <select id="simBudget" class="form-select" onchange="executarSimulador()">
-              <option value="constrained">Restrito / Econômico (Instituições de Ensino / Pequenos Centros)</option>
-              <option value="moderate">Moderado (Universidades / Órgãos Públicos Estaduais)</option>
-              <option value="robust">Amplo / Corporativo (Centros Nacionais / Agências de Pesquisa)</option>
-            </select>
-          </div>
-
-          <button type="button" class="btn-action" onclick="executarSimulador()">
-            <i data-lucide="play" style="width:14px;height:14px;vertical-align:middle;"></i> Recalcular Cenário
+<div class="simulator-grid">
+<div class="sim-controls">
+<div class="form-group">
+<label class="form-label" for="simObjectType">Tipologia do Objeto Digital:</label>
+<select class="form-select" id="simObjectType" onchange="executarSimulador()">
+<option value="text">Documentos Textuais / Administrativos (Ofícios, Teses, Atas)</option>
+<option value="interactive">Software, Jogos, Hipermídias &amp; Conteúdos Interativos</option>
+<option value="data">Bases de Dados Científicas &amp; Séries Estatísticas</option>
+<option value="web">Portais Web, Mídias Sociais &amp; Websites Governamentais</option>
+<option value="audio_video">Acervos Audiovisuais Históricos (Vídeo/Som)</option>
+</select>
+</div>
+<div class="form-group">
+<label class="form-label" for="simHorizon">Horizonte Temporal Pretendido:</label>
+<select class="form-select" id="simHorizon" onchange="executarSimulador()">
+<option value="indefinite">Longo Prazo Indefinido (&gt; 25 anos / Patrimonial)</option>
+<option value="medium">Médio Prazo (5 a 20 anos / Vigência Operacional)</option>
+<option value="short">Curto Prazo (&lt; 5 anos / Suporte Imediato)</option>
+</select>
+</div>
+<div class="form-group">
+<label class="form-label" for="simBudget">Orçamento Institucional Disponível:</label>
+<select class="form-select" id="simBudget" onchange="executarSimulador()">
+<option value="constrained">Restrito / Econômico (Instituições de Ensino / Pequenos Centros)</option>
+<option value="moderate">Moderado (Universidades / Órgãos Públicos Estaduais)</option>
+<option value="robust">Amplo / Corporativo (Centros Nacionais / Agências de Pesquisa)</option>
+</select>
+</div>
+<button class="btn-action" onclick="executarSimulador()" type="button">
+<i data-lucide="play" style="width:14px;height:14px;vertical-align:middle;"></i> Recalcular Cenário
           </button>
-        </div>
-
-        <div class="sim-results" id="simResultsBox">
-          <span class="recommendation-badge badge-primary-rec" id="simBadgePrimary">Estratégia Recomendada: Migração com Normalização</span>
-          <h4 id="simRecTitle" style="margin-top:0; color:var(--primary); font-size:1.2rem;">Normalização em Formatos Padrão Aberto (PDF/A e XML)</h4>
-          <p id="simRecDescription" style="font-size:0.92rem; line-height:1.6;">
-            Para documentação predominantemente textual em horizonte de longo prazo, a conversão para PDF/A-1a/b associada ao encapsulamento de metadados PREMIS constitui a via mais segura, rentável e sustentável (<a href="#ref-santos-flores-2017" class="cite-link">Santos; Flores, 2017</a>).
-          </p>
-          <div style="background:var(--surface-container); padding:var(--space-sm) var(--space-md); border-left:3px solid var(--outline); font-size:0.85rem;">
-            <strong>Ação de Mitigação:</strong> <span id="simRecMitigation">Auditar somas de verificação criptográficas (SHA-256) a cada 90 dias e instituir redundância tripla distribuída geográfica.</span>
-          </div>
-        </div>
-      </div>
-      <a href="#menu" class="quick-nav-btn back-to-menu">
-        <i data-lucide="arrow-up" aria-hidden="true" style="width:16px;height:16px;"></i> Voltar ao menu
+</div>
+<div aria-atomic="true" aria-live="polite" class="sim-results" id="simResultsBox">
+<span class="recommendation-badge badge-primary-rec" id="simBadgePrimary">Estratégia Recomendada: Migração com Normalização</span>
+<h4 id="simRecTitle" style="margin-top:0; color:var(--primary); font-size:1.2rem;">Normalização em Formatos Padrão Aberto (PDF/A e XML)</h4>
+<p id="simRecDescription" style="font-size:0.92rem; line-height:1.6;">Para documentos textuais, a normalização pode ser considerada conforme as propriedades significativas e as condições de acesso. A literatura não estabelece uma estratégia universalmente mais segura ou econômica: compare alternativas e documente mudanças (<a class="cite-link" href="#ref-formenton-2020">Formenton; Gracioso, 2020, p. 13–15</a>).</p>
+<div style="background:var(--surface-container); padding:var(--space-sm) var(--space-md); border-left:3px solid var(--outline); font-size:0.85rem;">
+<strong>Ação de Mitigação:</strong> <span id="simRecMitigation">Definir a frequência de verificação e a distribuição das cópias segundo os riscos e a política do acervo.</span>
+</div>
+<div id="simContext"></div></div>
+</div>
+<a class="quick-nav-btn back-to-menu" href="#menu">
+<i aria-hidden="true" data-lucide="arrow-up" style="width:16px;height:16px;"></i> Voltar ao menu
       </a>
-    </article>
-
-    <!-- ========================================== -->
-    <!-- MÓDULO 4: TIPOLOGIAS DE CONTEÚDO DIGITAL   -->
-    <!-- ========================================== -->
-    <article id="modulo-4" class="academic-panel">
-      <h2>4. Aplicação por Tipologia de Conteúdo Digital</h2>
-
-      <p>
-        A heterogeneidade dos dados impõe exigências técnicas específicas quanto aos formatos de preservação (<em>Master Files</em>) e aos formatos de disseminação (<em>Access Files</em>). Enquanto o arquivo master preza pela máxima resolução e integridade sem compactação destrutiva, os arquivos de acesso priorizam a navegabilidade e a leveza de banda (<a href="#ref-arellano-2008" class="cite-link">Márdero Arellano, 2008</a>; <a href="#ref-library-canada-2015" class="cite-link">Library and Archives Canada, 2015</a>; <a href="#ref-national-archives-australia-2020" class="cite-link">National Archives of Australia, 2020</a>).
-      </p>
-
-      <!-- Category Filter -->
-      <div class="filter-bar">
-        <span style="font-size:0.85rem; font-weight:700; color:var(--primary); margin-right:var(--space-xs);">Filtrar Acervo:</span>
-        <button type="button" class="filter-btn active" onclick="filtrarTabelaTipologia('all', this)">Todos os Conteúdos</button>
-        <button type="button" class="filter-btn" onclick="filtrarTabelaTipologia('texto', this)">Textual</button>
-        <button type="button" class="filter-btn" onclick="filtrarTabelaTipologia('imagem', this)">Iconográfico</button>
-        <button type="button" class="filter-btn" onclick="filtrarTabelaTipologia('audio', this)">Sonoro</button>
-        <button type="button" class="filter-btn" onclick="filtrarTabelaTipologia('video', this)">Audiovisual</button>
-        <button type="button" class="filter-btn" onclick="filtrarTabelaTipologia('dados', this)">Pesquisa / Dados</button>
-        <button type="button" class="filter-btn" onclick="filtrarTabelaTipologia('web', this)">Web &amp; Software</button>
-      </div>
-
-      <!-- Responsive Typology Table -->
-      <div class="data-table-wrapper">
-        <table class="academic-table" id="typologyTable">
-          <thead>
-            <tr>
-              <th>Tipologia</th>
-              <th>Formato Master (Preservação)</th>
-              <th>Formato Disseminação</th>
-              <th>Padrão &amp; Especificação</th>
-              <th>Grau de Risco</th>
-              <th>Estratégia Primária</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr data-category="texto">
-              <td><strong>Documentos Textuais</strong><br><small>Ofícios, relatórios, teses</small></td>
-              <td><span class="format-code">PDF/A-1a</span>, <span class="format-code">PDF/A-2u</span>, <span class="format-code">XML</span></td>
-              <td><span class="format-code">PDF Web</span>, <span class="format-code">HTML</span></td>
-              <td>ISO 19005-1 / ISO 19005-2</td>
-              <td><span class="risk-indicator risk-low">Baixo Risco</span></td>
-              <td>Migração / Normalização</td>
-            </tr>
-            <tr data-category="texto">
-              <td><strong>Planilhas &amp; Escritório</strong><br><small>Cálculos, tabelas de dados</small></td>
-              <td><span class="format-code">ODS</span> (ISO 26300), <span class="format-code">CSV UTF-8</span></td>
-              <td><span class="format-code">XLSX</span>, <span class="format-code">PDF</span></td>
-              <td>OpenDocument Oasis / RFC 4180</td>
-              <td><span class="risk-indicator risk-medium">Médio (macros)</span></td>
-              <td>Normalização para ODS/CSV</td>
-            </tr>
-            <tr data-category="imagem">
-              <td><strong>Imagens Estáticas</strong><br><small>Fotografias, gravuras, mapas</small></td>
-              <td><span class="format-code">TIFF 6.0</span> (não comprimido), <span class="format-code">DNG</span></td>
-              <td><span class="format-code">JPEG</span>, <span class="format-code">WebP</span></td>
-              <td>Adobe TIFF Spec / ISO 12234-2</td>
-              <td><span class="risk-indicator risk-low">Baixo Risco</span></td>
-              <td>Refrescamento / Migração</td>
-            </tr>
-            <tr data-category="audio">
-              <td><strong>Documentos Sonoros</strong><br><small>Entrevistas orais, concertos</small></td>
-              <td><span class="format-code">BWF</span> (24b/96kHz), <span class="format-code">WAV L-PCM</span></td>
-              <td><span class="format-code">MP3 (320k)</span>, <span class="format-code">AAC</span></td>
-              <td>EBU Tech 3285 / ITU-R BS.647</td>
-              <td><span class="risk-indicator risk-medium">Médio (volume)</span></td>
-              <td>Refrescamento de Suporte</td>
-            </tr>
-            <tr data-category="video">
-              <td><strong>Recursos Audiovisuais</strong><br><small>Filmes, gravações de sessões</small></td>
-              <td><span class="format-code">FFV1 / Matroska (MKV)</span>, <span class="format-code">MXF</span></td>
-              <td><span class="format-code">MP4 (H.264/AAC)</span>, <span class="format-code">WebM</span></td>
-              <td>IETF CELLAR RFC 9043 / SMPTE</td>
-              <td><span class="risk-indicator risk-high">Alto (codecs)</span></td>
-              <td>Migração de Codecs Abertos</td>
-            </tr>
-            <tr data-category="dados">
-              <td><strong>Bases de Dados Científicas</strong><br><small>Datasets de pesquisa, surveys</small></td>
-              <td><span class="format-code">CSV</span>, <span class="format-code">JSON-Schema</span>, <span class="format-code">SIARD</span></td>
-              <td><span class="format-code">API JSON</span>, <span class="format-code">Excel</span></td>
-              <td>SIARD 2.1 (E-ARK) / W3C Schema</td>
-              <td><span class="risk-indicator risk-medium">Médio (esquema)</span></td>
-              <td>Encapsulamento com Dicionário</td>
-            </tr>
-            <tr data-category="web">
-              <td><strong>Conteúdos Web &amp; Redes</strong><br><small>Portais governamentais, blogs</small></td>
-              <td><span class="format-code">WARC</span> (Web ARChive)</td>
-              <td><span class="format-code">Wayback Replay</span></td>
-              <td>ISO 28500:2017 (IIPC)</td>
-              <td><span class="risk-indicator risk-high">Alto (dinamismo)</span></td>
-              <td>Web Archiving (Heritrix)</td>
-            </tr>
-            <tr data-category="web">
-              <td><strong>Software, Jogos &amp; Ambientes</strong><br><small>Sistemas proprietários, multimídia</small></td>
-              <td><span class="format-code">ISO 9660</span>, Imagem RAW de Disco, Contêiner OCI</td>
-              <td>Emulador Web (v86, DOSBox)</td>
-              <td>Open Virtualization Format / OCI</td>
-              <td><span class="risk-indicator risk-high">Crítico (hardware)</span></td>
-              <td>Emulação + Encapsulamento</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <a href="#menu" class="quick-nav-btn back-to-menu">
-        <i data-lucide="arrow-up" aria-hidden="true" style="width:16px;height:16px;"></i> Voltar ao menu
+<div class="lesson-end"><strong>Para levar com você</strong><p>A escolha depende das propriedades significativas, dos riscos, dos recursos e da continuidade do acesso.</p><label><input class="complete-module" data-module="3" type="checkbox"/> Concluí este módulo</label> <a class="quick-nav-btn" href="#modulo-4">Próximo módulo →</a></div></article>
+<!-- ========================================== -->
+<!-- MÓDULO 4: TIPOLOGIAS DE CONTEÚDO DIGITAL   -->
+<!-- ========================================== -->
+<article class="academic-panel" id="modulo-4">
+<h2>4. Aplicação por Tipologia de Conteúdo Digital</h2><div class="learning-prompt"><strong>O mesmo formato serve para qualquer conteúdo?</strong><p>Use os filtros para comparar tipos de objetos. As opções apresentadas são exemplos: avalie dependências, qualidade e contexto antes de converter.</p></div>
+<p>Diferentes tipos de conteúdo exigem avaliação de formatos e dependências. Formenton e Gracioso indicam diretrizes de seleção de formatos da Library and Archives Canada e dos National Archives of Australia (<a class="cite-link" data-original="ref-library-canada-2015" href="#ref-formenton-2020">Library and Archives Canada, 2015 <em>apud</em> Formenton; Gracioso, 2020, p. 9</a>; <a class="cite-link" data-original="ref-national-archives-australia-2020" href="#ref-formenton-2020">National Archives of Australia, c2020 <em>apud</em> Formenton; Gracioso, 2020, p. 9</a>). A tabela abaixo reúne exemplos didáticos de preservação e acesso; a escolha deve considerar as propriedades do original, a validação e o contexto do acervo.</p>
+<!-- Category Filter -->
+<div class="filter-bar">
+<span style="font-size:0.85rem; font-weight:700; color:var(--primary); margin-right:var(--space-xs);">Filtrar Acervo:</span>
+<button class="filter-btn active" onclick="filtrarTabelaTipologia('all', this)" type="button">Todos os Conteúdos</button>
+<button class="filter-btn" onclick="filtrarTabelaTipologia('texto', this)" type="button">Textual</button>
+<button class="filter-btn" onclick="filtrarTabelaTipologia('imagem', this)" type="button">Iconográfico</button>
+<button class="filter-btn" onclick="filtrarTabelaTipologia('audio', this)" type="button">Sonoro</button>
+<button class="filter-btn" onclick="filtrarTabelaTipologia('video', this)" type="button">Audiovisual</button>
+<button class="filter-btn" onclick="filtrarTabelaTipologia('dados', this)" type="button">Pesquisa / Dados</button>
+<button class="filter-btn" onclick="filtrarTabelaTipologia('web', this)" type="button">Web &amp; Software</button>
+</div>
+<!-- Responsive Typology Table -->
+<div class="data-table-wrapper">
+<table class="academic-table" id="typologyTable">
+<thead>
+<tr>
+<th>Tipologia</th>
+<th>Formato Master (Preservação)</th>
+<th>Formato Disseminação</th>
+<th>Padrão &amp; Especificação</th>
+<th>Grau de Risco</th>
+<th>Estratégia Primária</th>
+</tr>
+</thead>
+<tbody>
+<tr data-category="texto">
+<td><strong>Documentos Textuais</strong><br/><small>Ofícios, relatórios, teses</small></td>
+<td><span class="format-code">PDF/A-1a</span>, <span class="format-code">PDF/A-2u</span>, <span class="format-code">XML</span></td>
+<td><span class="format-code">PDF Web</span>, <span class="format-code">HTML</span></td>
+<td>ISO 19005-1 / ISO 19005-2</td>
+<td><span class="risk-indicator risk-low">Baixo Risco</span></td>
+<td>Migração / Normalização</td>
+</tr>
+<tr data-category="texto">
+<td><strong>Planilhas &amp; Escritório</strong><br/><small>Cálculos, tabelas de dados</small></td>
+<td><span class="format-code">ODS</span> (ISO 26300), <span class="format-code">CSV UTF-8</span></td>
+<td><span class="format-code">XLSX</span>, <span class="format-code">PDF</span></td>
+<td>OpenDocument Oasis / RFC 4180</td>
+<td><span class="risk-indicator risk-medium">Médio (macros)</span></td>
+<td>Normalização para ODS/CSV</td>
+</tr>
+<tr data-category="imagem">
+<td><strong>Imagens Estáticas</strong><br/><small>Fotografias, gravuras, mapas</small></td>
+<td><span class="format-code">TIFF 6.0</span> (não comprimido), <span class="format-code">DNG</span></td>
+<td><span class="format-code">JPEG</span>, <span class="format-code">WebP</span></td>
+<td>Adobe TIFF Spec / ISO 12234-2</td>
+<td><span class="risk-indicator risk-low">Baixo Risco</span></td>
+<td>Refrescamento / Migração</td>
+</tr>
+<tr data-category="audio">
+<td><strong>Documentos Sonoros</strong><br/><small>Entrevistas orais, concertos</small></td>
+<td><span class="format-code">BWF</span> (24b/96kHz), <span class="format-code">WAV L-PCM</span></td>
+<td><span class="format-code">MP3 (320k)</span>, <span class="format-code">AAC</span></td>
+<td>EBU Tech 3285 / ITU-R BS.647</td>
+<td><span class="risk-indicator risk-medium">Médio (volume)</span></td>
+<td>Refrescamento de Suporte</td>
+</tr>
+<tr data-category="video">
+<td><strong>Recursos Audiovisuais</strong><br/><small>Filmes, gravações de sessões</small></td>
+<td><span class="format-code">FFV1 / Matroska (MKV)</span>, <span class="format-code">MXF</span></td>
+<td><span class="format-code">MP4 (H.264/AAC)</span>, <span class="format-code">WebM</span></td>
+<td>IETF CELLAR RFC 9043 / SMPTE</td>
+<td><span class="risk-indicator risk-high">Alto (codecs)</span></td>
+<td>Migração de Codecs Abertos</td>
+</tr>
+<tr data-category="dados">
+<td><strong>Bases de Dados Científicas</strong><br/><small>Datasets de pesquisa, surveys</small></td>
+<td><span class="format-code">CSV</span>, <span class="format-code">JSON-Schema</span>, <span class="format-code">SIARD</span></td>
+<td><span class="format-code">API JSON</span>, <span class="format-code">Excel</span></td>
+<td>SIARD 2.1 (E-ARK) / W3C Schema</td>
+<td><span class="risk-indicator risk-medium">Médio (esquema)</span></td>
+<td>Encapsulamento com Dicionário</td>
+</tr>
+<tr data-category="web">
+<td><strong>Conteúdos Web &amp; Redes</strong><br/><small>Portais governamentais, blogs</small></td>
+<td><span class="format-code">WARC</span> (Web ARChive)</td>
+<td><span class="format-code">Wayback Replay</span></td>
+<td>ISO 28500:2017 (IIPC)</td>
+<td><span class="risk-indicator risk-high">Alto (dinamismo)</span></td>
+<td>Web Archiving (Heritrix)</td>
+</tr>
+<tr data-category="web">
+<td><strong>Software, Jogos &amp; Ambientes</strong><br/><small>Sistemas proprietários, multimídia</small></td>
+<td><span class="format-code">ISO 9660</span>, Imagem RAW de Disco, Contêiner OCI</td>
+<td>Emulador Web (v86, DOSBox)</td>
+<td>Open Virtualization Format / OCI</td>
+<td><span class="risk-indicator risk-high">Crítico (hardware)</span></td>
+<td>Emulação + Encapsulamento</td>
+</tr>
+</tbody>
+</table>
+</div>
+<a class="quick-nav-btn back-to-menu" href="#menu">
+<i aria-hidden="true" data-lucide="arrow-up" style="width:16px;height:16px;"></i> Voltar ao menu
       </a>
-    </article>
-
-    <!-- ========================================== -->
-    <!-- MÓDULO 5: OAIS, PADRÕES E ARQUITETURAS     -->
-    <!-- ========================================== -->
-    <article id="modulo-5" class="academic-panel">
-      <h2>5. Modelos Sistêmicos de Suporte: OAIS, PREMIS, METS, RODA e LOCKSS</h2>
-
-      <p class="lead">
-        A padronização internacional convergiu para modelos conceituais abertos e arquiteturas distribuídas, garantindo que a comunicação entre sistemas arquivísticos ocorra de modo interoperável e auditável (<a href="#ref-lavoie-2000" class="cite-link">Lavoie, 2000</a>; <a href="#ref-abnt-2007" class="cite-link">ABNT NBR 15472, 2007</a>; <a href="#ref-sayao-2007" class="cite-link">Sayão, 2007</a>).
+<div class="lesson-end"><strong>Para levar com você</strong><p>Um formato adequado ajuda, mas precisa de validação, metadados e acompanhamento.</p><label><input class="complete-module" data-module="4" type="checkbox"/> Concluí este módulo</label> <a class="quick-nav-btn" href="#modulo-5">Próximo módulo →</a></div></article>
+<!-- ========================================== -->
+<!-- MÓDULO 5: OAIS, PADRÕES E ARQUITETURAS     -->
+<!-- ========================================== -->
+<article class="academic-panel" id="modulo-5">
+<h2>5. Modelos Sistêmicos de Suporte: OAIS, PREMIS, METS, RODA e LOCKSS</h2><p class="learning-prompt">Atualização: o CCSDS publicou a edição 3 do OAIS em dezembro de 2024. As referências históricas permanecem identificadas por suas datas. <a href="https://ccsds.org/publications/magentabooks/" rel="noopener noreferrer" target="_blank">Consultar publicação oficial CCSDS 650.0-M-3</a>.</p><div class="learning-prompt"><strong>Como o repositório transforma entrega em acesso?</strong><p>Explore os módulos do OAIS pelo diagrama. Compare o SIP recebido, o AIP preservado e o DIP entregue.</p></div>
+<p class="lead">Modelos de referência ajudam as equipes a compartilhar conceitos e organizar responsabilidades. O OAIS descreve um arquivo como uma organização de pessoas e sistemas que assume a responsabilidade de preservar e disponibilizar informação (<a class="cite-link" data-original="ref-ccsds-1998" href="#ref-arellano-2004">CCSDS, 1998 <em>apud</em> Arellano, 2004, p. 19</a>).</p>
+<h3>5.1 O Modelo de Referência OAIS (ISO 14721 / ABNT NBR 15472)</h3>
+<p>O OAIS, desenvolvido no âmbito do CCSDS e publicado como norma ISO 14721, apresenta modelos de informação e de funções para a preservação em longo prazo (<a class="cite-link" data-original="ref-ccsds-2002" href="#ref-arellano-2008">CCSDS, 2002 <em>apud</em> Márdero Arellano, 2008, p. 88–89</a>; <a class="cite-link" href="#ref-corujo-2014">Corujo, 2014, p. 65–84</a>). A ABNT NBR 15472:2007 é a tradução brasileira citada na revisão de Formenton e Gracioso (<a class="cite-link" data-original="ref-abnt-2007" href="#ref-formenton-2020">ABNT, 2007 <em>apud</em> Formenton; Gracioso, 2020, p. 8</a>).</p>
+<!-- Interactive OAIS SVG Schematic -->
+<div class="oais-wrapper">
+<div class="oais-instructions">
+<i data-lucide="mouse-pointer-click" style="width:16px;height:16px;color:var(--tertiary);"></i>
+<span><strong>Diagrama Funcional Interativo do OAIS:</strong> clique sobre qualquer módulo ou pacote para explorar suas responsabilidades e fluxos.</span>
+</div>
+<svg aria-label="Diagrama Funcional do Modelo OAIS" class="oais-svg" role="img" viewbox="0 0 960 420" xmlns="http://www.w3.org/2000/svg">
+<!-- Background Archive Box -->
+<rect fill="#f7f4ec" height="380" rx="4" stroke="#b08d57" stroke-dasharray="6,4" stroke-width="2" width="600" x="180" y="20"></rect>
+<text fill="#14213d" font-family="'Libre Caslon Text', serif" font-size="16" font-weight="700" text-anchor="middle" x="480" y="45">SISTEMA ABERTO DE ARQUIVAMENTO DE INFORMAÇÃO (OAIS / SAAI)</text>
+<!-- Produtor -->
+<g aria-controls="oaisDetailBox" aria-label="PRODUTOR (Gerador de Dados)" class="oais-node" onclick="mostrarDetalheOAIS('produtor')" role="button" tabindex="0">
+<rect fill="#14213d" height="90" rx="2" stroke="#b08d57" stroke-width="1.5" width="120" x="20" y="160"></rect>
+<text fill="#f7f4ec" font-family="'Inter', sans-serif" font-size="14" font-weight="700" text-anchor="middle" x="80" y="200">PRODUTOR</text>
+<text fill="#d9cfb8" font-family="'Inter', sans-serif" font-size="10" text-anchor="middle" x="80" y="222">(Gerador de Dados)</text>
+</g>
+<!-- SIP Package Arrow -->
+<g aria-controls="oaisDetailBox" aria-label="SIP" class="oais-node" onclick="mostrarDetalheOAIS('sip')" role="button" tabindex="0">
+<line marker-end="url(#arrow)" stroke="#14213d" stroke-width="3" x1="140" x2="200" y1="205" y2="205"></line>
+<rect fill="#e3dac4" height="22" rx="2" stroke="#8a6a35" width="50" x="145" y="180"></rect>
+<text fill="#14213d" font-family="'Inter', sans-serif" font-size="11" font-weight="700" text-anchor="middle" x="170" y="195">SIP</text>
+</g>
+<!-- Ingest / Ingestão -->
+<g aria-controls="oaisDetailBox" aria-label="INGESTÃO (Validação/SIP)" class="oais-node" onclick="mostrarDetalheOAIS('ingest')" role="button" tabindex="0">
+<rect fill="#ffffff" height="90" rx="2" stroke="#14213d" stroke-width="2" width="105" x="210" y="160"></rect>
+<text fill="#14213d" font-family="'Inter', sans-serif" font-size="13" font-weight="700" text-anchor="middle" x="262" y="200">INGESTÃO</text>
+<text fill="#4f5360" font-family="'Inter', sans-serif" font-size="10" text-anchor="middle" x="262" y="220">(Validação/SIP)</text>
+</g>
+<!-- Administration -->
+<g aria-controls="oaisDetailBox" aria-label="ADMINISTRAÇÃO" class="oais-node" onclick="mostrarDetalheOAIS('administration')" role="button" tabindex="0">
+<rect fill="#ffffff" height="60" rx="2" stroke="#14213d" stroke-width="2" width="270" x="345" y="70"></rect>
+<text fill="#14213d" font-family="'Inter', sans-serif" font-size="13" font-weight="700" text-anchor="middle" x="480" y="105">ADMINISTRAÇÃO</text>
+</g>
+<!-- Archival Storage -->
+<g aria-controls="oaisDetailBox" aria-label="ARMAZEN. ARQUIVÍSTICO [Guarda AIP]" class="oais-node" onclick="mostrarDetalheOAIS('storage')" role="button" tabindex="0">
+<rect fill="#ffffff" height="90" rx="2" stroke="#14213d" stroke-width="2" width="125" x="345" y="160"></rect>
+<text fill="#14213d" font-family="'Inter', sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="407" y="195">ARMAZEN.</text>
+<text fill="#14213d" font-family="'Inter', sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="407" y="215">ARQUIVÍSTICO</text>
+<text fill="#8a6a35" font-family="'Inter', sans-serif" font-size="9" text-anchor="middle" x="407" y="235">[Guarda AIP]</text>
+</g>
+<!-- Data Management -->
+<g aria-controls="oaisDetailBox" aria-label="GESTÃO DE DADOS [Metadados]" class="oais-node" onclick="mostrarDetalheOAIS('data_mgmt')" role="button" tabindex="0">
+<rect fill="#ffffff" height="90" rx="2" stroke="#14213d" stroke-width="2" width="125" x="490" y="160"></rect>
+<text fill="#14213d" font-family="'Inter', sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="552" y="195">GESTÃO DE</text>
+<text fill="#14213d" font-family="'Inter', sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="552" y="215">DADOS</text>
+<text fill="#8a6a35" font-family="'Inter', sans-serif" font-size="9" text-anchor="middle" x="552" y="235">[Metadados]</text>
+</g>
+<!-- Preservation Planning -->
+<g aria-controls="oaisDetailBox" aria-label="PLANEJAMENTO DA PRESERVAÇÃO (Monitoramento Tecnológico)" class="oais-node" onclick="mostrarDetalheOAIS('planning')" role="button" tabindex="0">
+<rect fill="#ffffff" height="60" rx="2" stroke="#14213d" stroke-width="2" width="270" x="345" y="280"></rect>
+<text fill="#14213d" font-family="'Inter', sans-serif" font-size="13" font-weight="700" text-anchor="middle" x="480" y="310">PLANEJAMENTO DA PRESERVAÇÃO</text>
+<text fill="#4f5360" font-family="'Inter', sans-serif" font-size="10" text-anchor="middle" x="480" y="328">(Monitoramento Tecnológico)</text>
+</g>
+<!-- Access / Acesso -->
+<g aria-controls="oaisDetailBox" aria-label="ACESSO (Entrega/DIP)" class="oais-node" onclick="mostrarDetalheOAIS('access')" role="button" tabindex="0">
+<rect fill="#ffffff" height="90" rx="2" stroke="#14213d" stroke-width="2" width="105" x="645" y="160"></rect>
+<text fill="#14213d" font-family="'Inter', sans-serif" font-size="13" font-weight="700" text-anchor="middle" x="697" y="200">ACESSO</text>
+<text fill="#4f5360" font-family="'Inter', sans-serif" font-size="10" text-anchor="middle" x="697" y="220">(Entrega/DIP)</text>
+</g>
+<!-- DIP Package Arrow -->
+<g aria-controls="oaisDetailBox" aria-label="DIP" class="oais-node" onclick="mostrarDetalheOAIS('dip')" role="button" tabindex="0">
+<line stroke="#14213d" stroke-width="3" x1="750" x2="810" y1="205" y2="205"></line>
+<rect fill="#e3dac4" height="22" rx="2" stroke="#8a6a35" width="50" x="760" y="180"></rect>
+<text fill="#14213d" font-family="'Inter', sans-serif" font-size="11" font-weight="700" text-anchor="middle" x="785" y="195">DIP</text>
+</g>
+<!-- Consumidor / Comunidade Alvo -->
+<g aria-controls="oaisDetailBox" aria-label="CONSUMIDOR COMUNIDADE DESIGNADA" class="oais-node" onclick="mostrarDetalheOAIS('consumidor')" role="button" tabindex="0">
+<rect fill="#14213d" height="90" rx="2" stroke="#b08d57" stroke-width="1.5" width="120" x="820" y="160"></rect>
+<text fill="#f7f4ec" font-family="'Inter', sans-serif" font-size="13" font-weight="700" text-anchor="middle" x="880" y="195">CONSUMIDOR</text>
+<text fill="#d9cfb8" font-family="'Inter', sans-serif" font-size="10" text-anchor="middle" x="880" y="215">COMUNIDADE</text>
+<text fill="#d9cfb8" font-family="'Inter', sans-serif" font-size="10" text-anchor="middle" x="880" y="230">DESIGNADA</text>
+</g>
+<!-- Internal Flow Lines -->
+<line stroke="#8a6a35" stroke-width="2" x1="315" x2="345" y1="205" y2="205"></line>
+<line stroke="#8a6a35" stroke-width="2" x1="470" x2="490" y1="205" y2="205"></line>
+<line stroke="#8a6a35" stroke-width="2" x1="615" x2="645" y1="205" y2="205"></line>
+<line stroke="#8a6a35" stroke-dasharray="3,3" stroke-width="1.5" x1="480" x2="480" y1="130" y2="160"></line>
+<line stroke="#8a6a35" stroke-dasharray="3,3" stroke-width="1.5" x1="480" x2="480" y1="250" y2="280"></line>
+</svg>
+<div aria-atomic="true" aria-live="polite" class="oais-detail-card" id="oaisDetailBox">
+<h4 id="oaisDetailTitle" style="margin-top:0; color:var(--primary); font-size:1.15rem;">Entidade: Ingestão (Ingest)</h4>
+<p id="oaisDetailText" style="font-size:0.92rem; margin-bottom:0;">A ingestão recebe o SIP, realiza controle de qualidade, prepara o AIP e gera informações descritivas para os demais serviços do arquivo. Ferramentas e verificações concretas dependem da implementação (<a class="cite-link" href="#ref-corujo-2014">Corujo, 2014, p. 80–81</a>).</p>
+</div>
+</div>
+<h3>5.2 Padrões Globais de Metadados: PREMIS e METS</h3>
+<p>
+        Os metadados constituem a pedra angular da fidedignidade digital. Na arquitetura do OAIS, o Pacote de Arquivamento de Informação (AIP) pode utilizar esquemas complementares de metadados, sem exigir uma combinação obrigatória de PREMIS e METS (<a class="cite-link" href="#ref-lavoie-gartner-2013">Lavoie; Gartner, 2013</a>; <a class="cite-link" href="#ref-formenton-2017">Formenton <em>et al.</em>, 2017</a>):
       </p>
-
-      <h3>5.1 O Modelo de Referência OAIS (ISO 14721 / ABNT NBR 15472)</h3>
-      <p>
-        Desenvolvido originariamente pelo <em>Consultative Committee for Space Data Systems</em> (CCSDS) e formalizado como norma ISO 14721 (vertida ao vernáculo como ABNT NBR 15472 - SAAI), o modelo OAIS delineia as funções indispensáveis para a guarda sustentável de acervos digitais de longo prazo (<a href="#ref-ccsds-1998" class="cite-link">CCSDS, 1998</a>, <a href="#ref-ccsds-2002" class="cite-link">2002</a>; <a href="#ref-lavoie-2000" class="cite-link">Lavoie, 2000</a>; <a href="#ref-arellano-2008" class="cite-link">Márdero Arellano, 2008</a>).
-      </p>
-
-      <!-- Interactive OAIS SVG Schematic -->
-      <div class="oais-wrapper">
-        <div class="oais-instructions">
-          <i data-lucide="mouse-pointer-click" style="width:16px;height:16px;color:var(--tertiary);"></i>
-          <span><strong>Diagrama Funcional Interativo do OAIS:</strong> clique sobre qualquer módulo ou pacote para explorar suas responsabilidades e fluxos.</span>
-        </div>
-
-        <svg class="oais-svg" viewBox="0 0 960 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagrama Funcional do Modelo OAIS">
-          <!-- Background Archive Box -->
-          <rect x="180" y="20" width="600" height="380" rx="4" fill="#f7f4ec" stroke="#b08d57" stroke-width="2" stroke-dasharray="6,4"/>
-          <text x="480" y="45" font-family="'Libre Caslon Text', serif" font-size="16" font-weight="700" fill="#14213d" text-anchor="middle">SISTEMA ABERTO DE ARQUIVAMENTO DE INFORMAÇÃO (OAIS / SAAI)</text>
-
-          <!-- Produtor -->
-          <g class="oais-node" onclick="mostrarDetalheOAIS('produtor')">
-            <rect x="20" y="160" width="120" height="90" rx="2" fill="#14213d" stroke="#b08d57" stroke-width="1.5"/>
-            <text x="80" y="200" font-family="'Inter', sans-serif" font-size="14" font-weight="700" fill="#f7f4ec" text-anchor="middle">PRODUTOR</text>
-            <text x="80" y="222" font-family="'Inter', sans-serif" font-size="10" fill="#d9cfb8" text-anchor="middle">(Gerador de Dados)</text>
-          </g>
-
-          <!-- SIP Package Arrow -->
-          <g class="oais-node" onclick="mostrarDetalheOAIS('sip')">
-            <line x1="140" y1="205" x2="200" y2="205" stroke="#14213d" stroke-width="3" marker-end="url(#arrow)"/>
-            <rect x="145" y="180" width="50" height="22" rx="2" fill="#e3dac4" stroke="#8a6a35"/>
-            <text x="170" y="195" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#14213d" text-anchor="middle">SIP</text>
-          </g>
-
-          <!-- Ingest / Ingestão -->
-          <g class="oais-node" onclick="mostrarDetalheOAIS('ingest')">
-            <rect x="210" y="160" width="105" height="90" rx="2" fill="#ffffff" stroke="#14213d" stroke-width="2"/>
-            <text x="262" y="200" font-family="'Inter', sans-serif" font-size="13" font-weight="700" fill="#14213d" text-anchor="middle">INGESTÃO</text>
-            <text x="262" y="220" font-family="'Inter', sans-serif" font-size="10" fill="#4f5360" text-anchor="middle">(Validação/SIP)</text>
-          </g>
-
-          <!-- Administration -->
-          <g class="oais-node" onclick="mostrarDetalheOAIS('administration')">
-            <rect x="345" y="70" width="270" height="60" rx="2" fill="#ffffff" stroke="#14213d" stroke-width="2"/>
-            <text x="480" y="105" font-family="'Inter', sans-serif" font-size="13" font-weight="700" fill="#14213d" text-anchor="middle">ADMINISTRAÇÃO</text>
-          </g>
-
-          <!-- Archival Storage -->
-          <g class="oais-node" onclick="mostrarDetalheOAIS('storage')">
-            <rect x="345" y="160" width="125" height="90" rx="2" fill="#ffffff" stroke="#14213d" stroke-width="2"/>
-            <text x="407" y="195" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#14213d" text-anchor="middle">ARMAZEN.</text>
-            <text x="407" y="215" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#14213d" text-anchor="middle">ARQUIVÍSTICO</text>
-            <text x="407" y="235" font-family="'Inter', sans-serif" font-size="9" fill="#8a6a35" text-anchor="middle">[Guarda AIP]</text>
-          </g>
-
-          <!-- Data Management -->
-          <g class="oais-node" onclick="mostrarDetalheOAIS('data_mgmt')">
-            <rect x="490" y="160" width="125" height="90" rx="2" fill="#ffffff" stroke="#14213d" stroke-width="2"/>
-            <text x="552" y="195" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#14213d" text-anchor="middle">GESTÃO DE</text>
-            <text x="552" y="215" font-family="'Inter', sans-serif" font-size="12" font-weight="700" fill="#14213d" text-anchor="middle">DADOS</text>
-            <text x="552" y="235" font-family="'Inter', sans-serif" font-size="9" fill="#8a6a35" text-anchor="middle">[Metadados]</text>
-          </g>
-
-          <!-- Preservation Planning -->
-          <g class="oais-node" onclick="mostrarDetalheOAIS('planning')">
-            <rect x="345" y="280" width="270" height="60" rx="2" fill="#ffffff" stroke="#14213d" stroke-width="2"/>
-            <text x="480" y="310" font-family="'Inter', sans-serif" font-size="13" font-weight="700" fill="#14213d" text-anchor="middle">PLANEJAMENTO DA PRESERVAÇÃO</text>
-            <text x="480" y="328" font-family="'Inter', sans-serif" font-size="10" fill="#4f5360" text-anchor="middle">(Monitoramento Tecnológico)</text>
-          </g>
-
-          <!-- Access / Acesso -->
-          <g class="oais-node" onclick="mostrarDetalheOAIS('access')">
-            <rect x="645" y="160" width="105" height="90" rx="2" fill="#ffffff" stroke="#14213d" stroke-width="2"/>
-            <text x="697" y="200" font-family="'Inter', sans-serif" font-size="13" font-weight="700" fill="#14213d" text-anchor="middle">ACESSO</text>
-            <text x="697" y="220" font-family="'Inter', sans-serif" font-size="10" fill="#4f5360" text-anchor="middle">(Entrega/DIP)</text>
-          </g>
-
-          <!-- DIP Package Arrow -->
-          <g class="oais-node" onclick="mostrarDetalheOAIS('dip')">
-            <line x1="750" y1="205" x2="810" y2="205" stroke="#14213d" stroke-width="3"/>
-            <rect x="760" y="180" width="50" height="22" rx="2" fill="#e3dac4" stroke="#8a6a35"/>
-            <text x="785" y="195" font-family="'Inter', sans-serif" font-size="11" font-weight="700" fill="#14213d" text-anchor="middle">DIP</text>
-          </g>
-
-          <!-- Consumidor / Comunidade Alvo -->
-          <g class="oais-node" onclick="mostrarDetalheOAIS('consumidor')">
-            <rect x="820" y="160" width="120" height="90" rx="2" fill="#14213d" stroke="#b08d57" stroke-width="1.5"/>
-            <text x="880" y="195" font-family="'Inter', sans-serif" font-size="13" font-weight="700" fill="#f7f4ec" text-anchor="middle">CONSUMIDOR</text>
-            <text x="880" y="215" font-family="'Inter', sans-serif" font-size="10" fill="#d9cfb8" text-anchor="middle">COMUNIDADE</text>
-            <text x="880" y="230" font-family="'Inter', sans-serif" font-size="10" fill="#d9cfb8" text-anchor="middle">DESIGNADA</text>
-          </g>
-
-          <!-- Internal Flow Lines -->
-          <line x1="315" y1="205" x2="345" y2="205" stroke="#8a6a35" stroke-width="2"/>
-          <line x1="470" y1="205" x2="490" y2="205" stroke="#8a6a35" stroke-width="2"/>
-          <line x1="615" y1="205" x2="645" y2="205" stroke="#8a6a35" stroke-width="2"/>
-          <line x1="480" y1="130" x2="480" y2="160" stroke="#8a6a35" stroke-width="1.5" stroke-dasharray="3,3"/>
-          <line x1="480" y1="250" x2="480" y2="280" stroke="#8a6a35" stroke-width="1.5" stroke-dasharray="3,3"/>
-        </svg>
-
-        <div id="oaisDetailBox" class="oais-detail-card">
-          <h4 id="oaisDetailTitle" style="margin-top:0; color:var(--primary); font-size:1.15rem;">Entidade: Ingestão (Ingest)</h4>
-          <p id="oaisDetailText" style="font-size:0.92rem; margin-bottom:0;">
-            Recebe o Pacote de Submissão de Informação (SIP) submetido pelo Produtor. Executa validação de integridade por checksum, extrai metadados técnicos de formato (via ferramentas como JHOVE), efetua controle antivírus e empacota o conteúdo na estrutura do Pacote de Arquivamento de Informação (AIP), encaminhando-o ao Armazenamento Arquivístico (<a href="#ref-lavoie-2000" class="cite-link">Lavoie, 2000</a>; <a href="#ref-sayao-2007" class="cite-link">Sayão, 2007</a>).
+<div style="display:grid; grid-template-columns:1fr 1fr; gap:var(--space-md); margin-bottom:var(--space-lg);">
+<div style="background:var(--surface-container-low); border:var(--hairline); padding:var(--space-md);">
+<h4 style="color:var(--primary); margin-top:0;"><i data-lucide="tag" style="width:16px;height:16px;"></i> PREMIS (Preservation Metadata)</h4>
+<p style="font-size:0.88rem;">
+            Dicionário de dados mantido pela <em>Library of Congress</em>. Na versão 3.0, organiza quatro entidades: Objetos, Eventos, Agentes e Direitos. Entidades intelectuais podem ser representadas no âmbito de Objetos:
           </p>
-        </div>
-      </div>
-
-      <h3>5.2 Padrões Globais de Metadados: PREMIS e METS</h3>
-      <p>
-        Os metadados constituem a pedra angular da fidedignidade digital. Na arquitetura do OAIS, o Pacote de Arquivamento de Informação (AIP) estrutura-se mediante a simbiose de dois esquemas internacionais (<a href="#ref-lavoie-gartner-2013" class="cite-link">Lavoie; Gartner, 2013</a>; <a href="#ref-formenton-2017" class="cite-link">Formenton <em>et al.</em>, 2017</a>):
-      </p>
-
-      <div style="display:grid; grid-template-columns:1fr 1fr; gap:var(--space-md); margin-bottom:var(--space-lg);">
-        <div style="background:var(--surface-container-low); border:var(--hairline); padding:var(--space-md);">
-          <h4 style="color:var(--primary); margin-top:0;"><i data-lucide="tag" style="width:16px;height:16px;"></i> PREMIS (Preservation Metadata)</h4>
-          <p style="font-size:0.88rem;">
-            Dicionário de dados mantido pela <em>Library of Congress</em>. Estrutura-se em 5 entidades essenciais:
-          </p>
-          <ul style="font-size:0.84rem; padding-left:1.2rem;">
-            <li><strong>Entidade Intelectual:</strong> obra autônoma (livro, mapa, conjunto de dados).</li>
-            <li><strong>Objeto (Object):</strong> representações, arquivos ou bitstreams específicos.</li>
-            <li><strong>Evento (Event):</strong> qualquer ação técnica executada (ingestão, migração, validação).</li>
-            <li><strong>Agente (Agent):</strong> pessoas, organizações ou softwares que executam eventos.</li>
-            <li><strong>Direitos (Rights):</strong> permissões legais de guarda, cópia e disseminação.</li>
-          </ul>
-        </div>
-
-        <div style="background:var(--surface-container-low); border:var(--hairline); padding:var(--space-md);">
-          <h4 style="color:var(--primary); margin-top:0;"><i data-lucide="code" style="width:16px;height:16px;"></i> METS (Metadata Encoding &amp; Transmission)</h4>
-          <p style="font-size:0.88rem;">
+<ul style="font-size:0.84rem; padding-left:1.2rem;">
+<li><strong>Entidade Intelectual:</strong> obra autônoma (livro, mapa, conjunto de dados).</li>
+<li><strong>Objeto (Object):</strong> representações, arquivos ou bitstreams específicos.</li>
+<li><strong>Evento (Event):</strong> qualquer ação técnica executada (ingestão, migração, validação).</li>
+<li><strong>Agente (Agent):</strong> pessoas, organizações ou softwares que executam eventos.</li>
+<li><strong>Direitos (Rights):</strong> permissões legais de guarda, cópia e disseminação.</li>
+</ul>
+</div>
+<div style="background:var(--surface-container-low); border:var(--hairline); padding:var(--space-md);">
+<h4 style="color:var(--primary); margin-top:0;"><i data-lucide="code" style="width:16px;height:16px;"></i> METS (Metadata Encoding &amp; Transmission)</h4>
+<p style="font-size:0.88rem;">
             Padrão XML para empacotar metadados descritivos, administrativos e estruturais de objetos digitais complexos:
           </p>
-          <ul style="font-size:0.84rem; padding-left:1.2rem;">
-            <li><strong>metsHdr:</strong> cabeçalho com histórico de criação do documento METS.</li>
-            <li><strong>dmdSec:</strong> seção de metadados descritivos (Dublin Core, MODS).</li>
-            <li><strong>amdSec:</strong> metadados administrativos e técnicos (incorporando PREMIS).</li>
-            <li><strong>fileSec:</strong> inventário completo dos arquivos e hashes MD5/SHA.</li>
-            <li><strong>structMap:</strong> mapa estrutural hierárquico organizando a renderização.</li>
-          </ul>
-        </div>
-      </div>
-
-      <h3>5.3 Infraestruturas Tecnológicas e Repositórios: RODA e LOCKSS</h3>
-      <p>
+<ul style="font-size:0.84rem; padding-left:1.2rem;">
+<li><strong>metsHdr:</strong> cabeçalho com histórico de criação do documento METS.</li>
+<li><strong>dmdSec:</strong> seção de metadados descritivos (Dublin Core, MODS).</li>
+<li><strong>amdSec:</strong> metadados administrativos e técnicos (incorporando PREMIS).</li>
+<li><strong>fileSec:</strong> inventário completo dos arquivos e hashes MD5/SHA.</li>
+<li><strong>structMap:</strong> mapa estrutural hierárquico organizando a renderização.</li>
+</ul>
+</div>
+</div>
+<h3>5.3 Infraestruturas Tecnológicas e Repositórios: RODA e LOCKSS</h3>
+<p>
         A operacionalização concreta da teoria arquivística manifesta-se em duas abordagens basilares de repositórios digitais:
       </p>
-
-      <ul>
-        <li>
-          <strong>RODA (Repositório de Objetos Digitais Autênticos):</strong> desenvolvido pela Direção-Geral de Arquivos de Portugal (DGARQ) e parceiros, constitui um repositório institucional de código aberto integralmente fundamentado no OAIS e no PREMIS. O RODA implementa validação automática de formatos na ingestão, conversores programados contra obsolescência, monitoramento assíduo de fixidez e gerenciamento de permissões com rigor diplomático (<a href="#ref-barbedo-2011" class="cite-link">Barbedo; Corujo; Sant'Ana, 2011</a>; <a href="#ref-arquivo-nacional-2016" class="cite-link">Arquivo Nacional, 2016</a>).
-        </li>
-        <li>
-          <strong>LOCKSS (Lots of Copies Keep Stuff Safe):</strong> concebido pela Universidade de Stanford, ancora-se no princípio de que a preservação de longo prazo depende da <strong>redundância distribuída massiva</strong>. Sistemas LOCKSS operam em rede <em>peer-to-peer</em> descentralizada; os nós realizam rotinas contínuas de votação e auditoria comparativa (<em>polling and voting protocol</em>). Caso um nó sofra corrupção física ou ataque silencioso de bits (<em>bit rot</em>), ele é automaticamente reparado a partir do consenso das cópias íntegras dos demais nós da federação (<a href="#ref-arellano-2012" class="cite-link">Márdero Arellano, 2012</a>; <a href="#ref-farias-2018" class="cite-link">Farias; Araújo; Evangelista, 2018</a>).
-        </li>
-        <li>
-          <strong>A Rede Cariniana do IBICT:</strong> no cenário brasileiro, o Instituto Brasileiro de Informação em Ciência e Tecnologia (IBICT) estabeleceu a Rede Cariniana em 2013, empregando a tecnologia LOCKSS para salvaguardar teses, dissertações e periódicos científicos de acesso aberto em cooperação com dezenas de instituições federais e estaduais (como UFSM, UnB, USP, UFPB e UFSC) (<a href="#ref-formenton-2020" class="cite-link">Formenton; Gracioso, 2020</a>; <a href="#ref-arellano-2012" class="cite-link">Márdero Arellano, 2012</a>).
-        </li>
-      </ul>
-      <a href="#menu" class="quick-nav-btn back-to-menu">
-        <i data-lucide="arrow-up" aria-hidden="true" style="width:16px;height:16px;"></i> Voltar ao menu
+<ul>
+<li><strong>RODA (Repositório de Objectos Digitais Autênticos):</strong> Corujo descreve o projeto português e sua colaboração com a Universidade do Minho. O protótipo foi planejado com base no OAIS e em esquemas como METS, EAD e PREMIS; a migração e o registro das intervenções integram a abordagem de preservação descrita na dissertação. Trata-se do contexto histórico estudado em 2014 (<a class="cite-link" href="#ref-corujo-2014">Corujo, 2014, p. 129–131</a>).</li>
+<li><strong>LOCKSS (Lots of Copies Keep Stuff Safe):</strong> abordagem de replicação distribuída, com cópias em diferentes locais e verificações periódicas de congruência. Essa distribuição reduz a dependência de um único local de armazenamento (<a class="cite-link" href="#ref-arellano-2004">Arellano, 2004, p. 24</a>; <a class="cite-link" href="#ref-formenton-2020">Formenton; Gracioso, 2020, p. 12–13</a>).</li>
+<li><strong>Rede Cariniana do IBICT:</strong> criada em 2013, é discutida como iniciativa brasileira de preservação digital colaborativa. O artigo de Formenton e Gracioso apresenta sua relação com o LOCKSS e com instituições parceiras (<a class="cite-link" href="#ref-formenton-2020">Formenton; Gracioso, 2020, p. 3, 12</a>; <a class="cite-link" data-original="ref-arellano-2012" href="#ref-formenton-2020">Márdero Arellano, 2012 <em>apud</em> Formenton; Gracioso, 2020, p. 12</a>).</li>
+</ul>
+<a class="quick-nav-btn back-to-menu" href="#menu">
+<i aria-hidden="true" data-lucide="arrow-up" style="width:16px;height:16px;"></i> Voltar ao menu
       </a>
-    </article>
-
-    <!-- ========================================== -->
-    <!-- MÓDULO 6: AUTOAVALIAÇÃO / QUIZ ACADÊMICO   -->
-    <!-- ========================================== -->
-    <article id="modulo-6" class="academic-panel">
-      <h2>6. Verificação de Aprendizagem: Autoavaliação Conceitual</h2>
-      <p class="lead">
+<div class="lesson-end"><strong>Para levar com você</strong><p>OAIS é um modelo de referência; PREMIS e METS são padrões de metadados; RODA e LOCKSS são soluções com abordagens distintas.</p><label><input class="complete-module" data-module="5" type="checkbox"/> Concluí este módulo</label> <a class="quick-nav-btn" href="#modulo-6">Próximo módulo →</a></div></article>
+<!-- ========================================== -->
+<!-- MÓDULO 6: AUTOAVALIAÇÃO / QUIZ ACADÊMICO   -->
+<!-- ========================================== -->
+<article class="academic-panel" id="modulo-6">
+<h2>6. Autoavaliação: confira sua compreensão</h2><p id="quizStatus" role="status">0 de 4 questões respondidas.</p><button id="resetQuiz" type="button">Refazer autoavaliação</button><div class="learning-prompt"><strong>Como você explicaria suas escolhas?</strong><p>Selecione uma alternativa por questão e leia a explicação. Você pode tentar novamente; use o retorno para decidir o que revisar.</p></div>
+<p class="lead">
         Responda às questões conceituais elaboradas a partir do corpus teórico da disciplina para consolidar o aprendizado com retorno imediato.
       </p>
-
-      <!-- Questão 1 -->
-      <div class="quiz-card" id="q1Card">
-        <div class="quiz-question">
+<!-- Questão 1 -->
+<div class="quiz-card" id="q1Card">
+<div class="quiz-question">
           1. Em relação à ontologia arquivística dos documentos em meio eletrônico, qual afirmação é teoricamente correta?
         </div>
-        <div class="quiz-options">
-          <div class="quiz-option" data-q="1" data-correct="false" data-feedback="Incorreto. Documento digital é um subconjunto estrito dos documentos eletrônicos, caracterizado pela codificação binária." onclick="responderQuiz(this)">
-            <span>A) Documento eletrônico e documento digital são sinônimos perfeitos na arquivística contemporânea.</span>
-          </div>
-          <div class="quiz-option" data-q="1" data-correct="true" data-feedback="Correto! Conforme Bodê e Santos &amp; Flores, todo documento digital é eletrônico, mas nem todo eletrônico é digital (a exemplo das fitas magnéticas VHS analógicas)." onclick="responderQuiz(this)">
-            <span>B) O documento digital é um subconjunto dos documentos eletrônicos, caracterizado unicamente pela codificação em sequências binárias (bits) dependentes de computação.</span>
-          </div>
-          <div class="quiz-option" data-q="1" data-correct="false" data-feedback="Incorreto. As fitas VHS e cassetes de áudio são eletrônicas, mas estritamente analógicas, não digitais." onclick="responderQuiz(this)">
-            <span>C) As fitas magnéticas analógicas (VHS) são documentos digitais, pois requerem equipamentos com eletricidade.</span>
-          </div>
-        </div>
-        <div class="quiz-feedback" id="q1Feedback"></div>
-      </div>
-
-      <!-- Questão 2 -->
-      <div class="quiz-card" id="q2Card">
-        <div class="quiz-question">
+<div class="quiz-options">
+<button aria-pressed="false" class="quiz-option" data-correct="false" data-feedback="Incorreto. Documento digital é um subconjunto estrito dos documentos eletrônicos, caracterizado pela codificação binária." data-q="1" onclick="responderQuiz(this)" type="button">
+<span>A) Documento eletrônico e documento digital são sinônimos perfeitos na arquivística contemporânea.</span>
+</button>
+<button aria-pressed="false" class="quiz-option" data-correct="true" data-feedback="Correto! Conforme a distinção conceitual discutida por Bodê (2016), todo documento digital é eletrônico, mas nem todo eletrônico é digital (a exemplo das fitas magnéticas VHS analógicas)." data-q="1" onclick="responderQuiz(this)" type="button">
+<span>B) O documento digital é um subconjunto dos documentos eletrônicos, caracterizado unicamente pela codificação em sequências binárias (bits) dependentes de computação.</span>
+</button>
+<button aria-pressed="false" class="quiz-option" data-correct="false" data-feedback="Incorreto. As fitas VHS e cassetes de áudio são eletrônicas, mas estritamente analógicas, não digitais." data-q="1" onclick="responderQuiz(this)" type="button">
+<span>C) As fitas magnéticas analógicas (VHS) são documentos digitais, pois requerem equipamentos com eletricidade.</span>
+</button>
+</div>
+<div aria-atomic="true" aria-live="polite" class="quiz-feedback" id="q1Feedback"></div>
+</div>
+<!-- Questão 2 -->
+<div class="quiz-card" id="q2Card">
+<div class="quiz-question">
           2. Sobre as três camadas do objeto digital (Física, Lógica e Conceitual), assinale a correlação adequada:
         </div>
-        <div class="quiz-options">
-          <div class="quiz-option" data-q="2" data-correct="false" data-feedback="Incorreto. A emulação atua primordialmente na camada lógica para permitir a interpretação fidedigna da camada conceitual." onclick="responderQuiz(this)">
-            <span>A) A camada física é responsável pelo layout e tipografia que o ser humano compreende visualmente.</span>
-          </div>
-          <div class="quiz-option" data-q="2" data-correct="false" data-feedback="Incorreto. A migração de formatos transforma os bits da camada lógica para manter a inteligibilidade da camada conceitual." onclick="responderQuiz(this)">
-            <span>B) O bitstream original de zeros e uns reside na camada conceitual do objeto digital.</span>
-          </div>
-          <div class="quiz-option" data-q="2" data-correct="true" data-feedback="Exato! A camada lógica abrange a codificação binária e o formato de software, enquanto a conceitual traduz o significado apreensível pelo usuário, como apontam Thibodeau e Webb." onclick="responderQuiz(this)">
-            <span>C) A camada lógica compreende o bitstream e as especificações de formato de arquivo, enquanto a camada conceitual é a manifestação de conteúdo inteligível pelo ser humano.</span>
-          </div>
-        </div>
-        <div class="quiz-feedback" id="q2Feedback"></div>
-      </div>
-
-      <!-- Questão 3 -->
-      <div class="quiz-card" id="q3Card">
-        <div class="quiz-question">
+<div class="quiz-options">
+<button aria-pressed="false" class="quiz-option" data-correct="false" data-feedback="Incorreto. A emulação atua primordialmente na camada lógica para permitir a interpretação fidedigna da camada conceitual." data-q="2" onclick="responderQuiz(this)" type="button">
+<span>A) A camada física é responsável pelo layout e tipografia que o ser humano compreende visualmente.</span>
+</button>
+<button aria-pressed="false" class="quiz-option" data-correct="false" data-feedback="Incorreto. A migração de formatos transforma os bits da camada lógica para manter a inteligibilidade da camada conceitual." data-q="2" onclick="responderQuiz(this)" type="button">
+<span>B) O bitstream original de zeros e uns reside na camada conceitual do objeto digital.</span>
+</button>
+<button aria-pressed="false" class="quiz-option" data-correct="true" data-feedback="Exato! A camada lógica abrange a codificação binária e o formato de software, enquanto a conceitual traduz o significado apreensível pelo usuário, conforme a distinção das camadas discutida por Thibodeau (2002) e Corujo (2014, p. 22–24)." data-q="2" onclick="responderQuiz(this)" type="button">
+<span>C) A camada lógica compreende o bitstream e as especificações de formato de arquivo, enquanto a camada conceitual é a manifestação de conteúdo inteligível pelo ser humano.</span>
+</button>
+</div>
+<div aria-atomic="true" aria-live="polite" class="quiz-feedback" id="q2Feedback"></div>
+</div>
+<!-- Questão 3 -->
+<div class="quiz-card" id="q3Card">
+<div class="quiz-question">
           3. No Modelo de Referência OAIS (ISO 14721), qual é a denominação e função do pacote armazenado no cofre digital de longo prazo?
         </div>
-        <div class="quiz-options">
-          <div class="quiz-option" data-q="3" data-correct="false" data-feedback="Incorreto. O SIP - Submission Information Package - é o pacote enviado pelo Produtor na fase de ingestão." onclick="responderQuiz(this)">
-            <span>A) SIP (Submission Information Package), entregue aos usuários para download direto.</span>
-          </div>
-          <div class="quiz-option" data-q="3" data-correct="true" data-feedback="Perfeito! O AIP - Archival Information Package - associa o objeto de dados à sua Informação de Descrição de Preservação (PDI com proveniência, contexto, fixidez e referência)." onclick="responderQuiz(this)">
-            <span>B) AIP (Archival Information Package), composto pelo objeto de conteúdo e seus metadados de preservação (PDI).</span>
-          </div>
-          <div class="quiz-option" data-q="3" data-correct="false" data-feedback="Incorreto. O DIP - Dissemination Information Package - é o pacote customizado para acesso pelo consumidor." onclick="responderQuiz(this)">
-            <span>C) DIP (Dissemination Information Package), gerado para arquivamento interno imutável.</span>
-          </div>
-        </div>
-        <div class="quiz-feedback" id="q3Feedback"></div>
-      </div>
-
-      <!-- Questão 4 -->
-      <div class="quiz-card" id="q4Card">
-        <div class="quiz-question">
+<div class="quiz-options">
+<button aria-pressed="false" class="quiz-option" data-correct="false" data-feedback="Incorreto. O SIP - Submission Information Package - é o pacote enviado pelo Produtor na fase de ingestão." data-q="3" onclick="responderQuiz(this)" type="button">
+<span>A) SIP (Submission Information Package), entregue aos usuários para download direto.</span>
+</button>
+<button aria-pressed="false" class="quiz-option" data-correct="true" data-feedback="Perfeito! O AIP - Archival Information Package - associa o objeto de dados à sua Informação de Descrição de Preservação (PDI com proveniência, contexto, fixidez e referência)." data-q="3" onclick="responderQuiz(this)" type="button">
+<span>B) AIP (Archival Information Package), composto pelo objeto de conteúdo e seus metadados de preservação (PDI).</span>
+</button>
+<button aria-pressed="false" class="quiz-option" data-correct="false" data-feedback="Incorreto. O DIP - Dissemination Information Package - é o pacote customizado para acesso pelo consumidor." data-q="3" onclick="responderQuiz(this)" type="button">
+<span>C) DIP (Dissemination Information Package), gerado para arquivamento interno imutável.</span>
+</button>
+</div>
+<div aria-atomic="true" aria-live="polite" class="quiz-feedback" id="q3Feedback"></div>
+</div>
+<!-- Questão 4 -->
+<div class="quiz-card" id="q4Card">
+<div class="quiz-question">
           4. Qual é o diferencial técnico fundamental da arquitetura LOCKSS utilizada na Rede Cariniana do IBICT?
         </div>
-        <div class="quiz-options">
-          <div class="quiz-option" data-q="4" data-correct="false" data-feedback="Incorreto. O LOCKSS não depende de um servidor centralizador; é uma rede descentralizada peer-to-peer." onclick="responderQuiz(this)">
-            <span>A) Concentra todos os arquivos em um único data center centralizado com firewall corporativo.</span>
-          </div>
-          <div class="quiz-option" data-q="4" data-correct="true" data-feedback="Correto! O princípio LOCKSS baseia-se na replicação distribuída com votação contínua entre pares via protocolo de polling, garantindo autocura em caso de perda de bits conforme Márdero Arellano." onclick="responderQuiz(this)">
-            <span>B) Replicação distribuída massiva entre pares (peer-to-peer) com protocolo contínuo de votação e autocura de cópias corrompidas.</span>
-          </div>
-          <div class="quiz-option" data-q="4" data-correct="false" data-feedback="Incorreto. O LOCKSS preserva materiais digitais na sua integridade lógica, sem recorrer a microfilmes." onclick="responderQuiz(this)">
-            <span>C) Conversão obrigatória de todos os arquivos digitais em cópias de microfilme híbrido.</span>
-          </div>
-        </div>
-        <div class="quiz-feedback" id="q4Feedback"></div>
-      </div>
-      <a href="#menu" class="quick-nav-btn back-to-menu">
-        <i data-lucide="arrow-up" aria-hidden="true" style="width:16px;height:16px;"></i> Voltar ao menu
+<div class="quiz-options">
+<button aria-pressed="false" class="quiz-option" data-correct="false" data-feedback="Incorreto. O LOCKSS não depende de um servidor centralizador; é uma rede descentralizada peer-to-peer." data-q="4" onclick="responderQuiz(this)" type="button">
+<span>A) Concentra todos os arquivos em um único data center centralizado com firewall corporativo.</span>
+</button>
+<button aria-pressed="false" class="quiz-option" data-correct="true" data-feedback="Correto! O princípio LOCKSS baseia-se na replicação distribuída com votação contínua entre pares via protocolo de polling, permitindo verificar e reparar cópias, conforme a abordagem de replicação discutida por Arellano (2004, p. 24)." data-q="4" onclick="responderQuiz(this)" type="button"><span>B) Replicação distribuída entre instituições, com verificação e possibilidade de reparação das cópias.</span></button>
+<button aria-pressed="false" class="quiz-option" data-correct="false" data-feedback="Incorreto. O LOCKSS preserva materiais digitais na sua integridade lógica, sem recorrer a microfilmes." data-q="4" onclick="responderQuiz(this)" type="button">
+<span>C) Conversão obrigatória de todos os arquivos digitais em cópias de microfilme híbrido.</span>
+</button>
+</div>
+<div aria-atomic="true" aria-live="polite" class="quiz-feedback" id="q4Feedback"></div>
+</div>
+<a class="quick-nav-btn back-to-menu" href="#menu">
+<i aria-hidden="true" data-lucide="arrow-up" style="width:16px;height:16px;"></i> Voltar ao menu
       </a>
-    </article>
+<div class="lesson-end"><strong>Para levar com você</strong><p>Retome o caso inicial: quais ações manteriam seu recurso educacional acessível e compreensível daqui a vinte anos?</p><label><input class="complete-module" data-module="6" type="checkbox"/> Concluí este módulo</label> <a class="quick-nav-btn" href="#modulo-7">Consultar referências →</a></div></article>
+<!-- ========================================== -->
+<!-- MÓDULO 7: REFERÊNCIAS BIBLIOGRÁFICAS ABNT -->
+<!-- ========================================== -->
+<article class="academic-panel" id="modulo-7">
+<h2>7. Referências</h2><p class="learning-prompt"><strong>Para ampliar sua busca:</strong> o levantamento organizado por Márdero Arellano e Santos reúne literatura por temas. Use-o para localizar as publicações originais antes de citá-las diretamente (<a class="cite-link" href="#ref-bibliografia-2021">Márdero Arellano; Santos, 2021</a>).</p>
 
-    <!-- ========================================== -->
-    <!-- MÓDULO 7: REFERÊNCIAS BIBLIOGRÁFICAS ABNT -->
-    <!-- ========================================== -->
-    <article id="modulo-7" class="academic-panel">
-      <h2>7. Referências Bibliográficas (Normas ABNT NBR 6023:2020)</h2>
-      <p style="font-size:0.9rem; color:var(--on-surface-variant); margin-bottom:var(--space-md);">
-        Lista de fontes citadas no corpo da nota de aula, organizadas alfabeticamente e formatadas estritamente segundo os ditames da ABNT NBR 6023:2020. As citações no corpo do texto seguem a ABNT NBR 10520:2023 (sistema autor-data, com o sobrenome grafado em maiúsculas e minúsculas). As âncoras no texto vinculam-se diretamente a cada registro abaixo.
-      </p>
-
-      <ul class="bibliography-list">
-        
-        <li class="reference-item" id="ref-andrade-2006">
-          <span class="ref-author">ANDRADE, R. L. V. de; BORGES, J.; JAMBEIRO, O.</span> <span class="ref-title">A preservação de documentos digitais:</span> aspectos técnicos, políticos e legais. <span class="ref-journal">Revista da Faced</span>, Salvador, n. 10, p. 13-30, 2006.
-          <a href="#modulo-3" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-arquivo-nacional-2016">
-          <span class="ref-author">ARQUIVO NACIONAL (Brasil).</span> <span class="ref-title">Política de preservação digital do Programa Permanente de Preservação e Acesso a Documentos Arquivísticos Digitais:</span> AN Digital. Rio de Janeiro: Arquivo Nacional, 2016. 38 p.
-          <a href="#modulo-1" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-abnt-2007">
-          <span class="ref-author">ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS.</span> <span class="ref-title">ABNT NBR 15472:</span> sistemas espaciais de dados e informações: modelo de referência para um sistema aberto de arquivamento de informação (SAAI). Rio de Janeiro: ABNT, 2007. 87 p.
-          <a href="#modulo-5" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-baggio-flores-2012">
-          <span class="ref-author">BAGGIO, C. C.; FLORES, D.</span> <span class="ref-title">Preservação digital de documentos arquivísticos eletrônicos através de estratégias de migração de formatos.</span> <span class="ref-journal">Ágora</span>, Florianópolis, v. 22, n. 45, p. 25-50, jul./dez. 2012.
-          <a href="#modulo-3" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-barbedo-2011">
-          <span class="ref-author">BARBEDO, F.; CORUJO, L.; SANT'ANA, M.</span> <span class="ref-title">Recomendações para a produção de planos de preservação digital.</span> Lisboa: Direção-Geral de Arquivos (DGARQ), 2011. 52 p.
-          <a href="#modulo-1" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-bode-2016">
-          <span class="ref-author">BODÊ, C. de O.</span> <span class="ref-title">Documento eletrônico e documento digital:</span> conceitos e terminologias na ciência da informação. <span class="ref-journal">Informação &amp; Sociedade</span>, João Pessoa, v. 26, n. 3, p. 101-114, 2016.
-          <a href="#modulo-1" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-boeres-2017">
-          <span class="ref-author">BOERES, C. A.</span> <span class="ref-title">Competências profissionais em preservação digital:</span> demandas e requisitos para unidades de informação. 2017. 210 f. Tese (Doutorado em Ciência da Informação) – Universidade de Brasília, Brasília, 2017.
-          <a href="#modulo-3" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-boeres-arellano-2005">
-          <span class="ref-author">BOERES, C. A.; MÁRDERO ARELLANO, J. A.</span> <span class="ref-title">Critérios de seleção de documentos digitais para preservação a longo prazo.</span> <span class="ref-journal">Ciência da Informação</span>, Brasília, v. 34, n. 2, p. 41-52, maio/ago. 2005.
-          <a href="#modulo-3" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-bote-2013">
-          <span class="ref-author">BOTÉ, J. J.; FERNANDEZ-FEIJOO, B.; RUIZ, F.</span> <span class="ref-title">Cost models in digital preservation:</span> a state of the art. <span class="ref-journal">BiD: textos universitaris de biblioteconomia i documentació</span>, Barcelona, n. 31, p. 1-15, 2013.
-          <a href="#modulo-3" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-bullock-1999">
-          <span class="ref-author">BULLOCK, A.</span> <span class="ref-title">Preservation of digital information:</span> issues and current status. Ottawa: Network Support of National Library of Canada, 1999. 48 p.
-          <a href="#modulo-2" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-ccsds-1998">
-          <span class="ref-author">CONSULTATIVE COMMITTEE FOR SPACE DATA SYSTEMS (CCSDS).</span> <span class="ref-title">Reference model for an Open Archival Information System (OAIS):</span> white book. Washington, DC: CCSDS, 1998.
-          <a href="#modulo-5" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-ccsds-2002">
-          <span class="ref-author">CONSULTATIVE COMMITTEE FOR SPACE DATA SYSTEMS (CCSDS).</span> <span class="ref-title">Reference model for an Open Archival Information System (OAIS):</span> blue book. Washington, DC: CCSDS, 2002. Recommendation for Space Data System Standards, CCSDS 650.0-B-1.
-          <a href="#modulo-5" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-conarq-2015">
-          <span class="ref-author">CONSELHO NACIONAL DE ARQUIVOS (Brasil).</span> <span class="ref-title">Resolução nº 43, de 4 de setembro de 2015.</span> Altera a Resolução nº 39, de 29 de abril de 2014, que estabelece diretrizes para a implementação de repositórios arquivísticos digitais confiáveis (RDC-Arq). Diário Oficial da União: seção 1, Brasília, DF, n. 176, p. 11-12, 15 set. 2015.
-          <a href="#modulo-1" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-dpc-2015">
-          <span class="ref-author">DIGITAL PRESERVATION COALITION (DPC).</span> <span class="ref-title">Digital preservation handbook.</span> 2. ed. York: DPC, 2015.
-          <a href="#modulo-3" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-farias-2018">
-          <span class="ref-author">FARIAS, G. B. de; ARAÚJO, P. C. de; EVANGELISTA, I. A.</span> <span class="ref-title">A Rede Cariniana e a preservação digital em repositórios institucionais no Brasil.</span> <span class="ref-journal">Perspectivas em Ciência da Informação</span>, Belo Horizonte, v. 23, n. 4, p. 65-84, out./dez. 2018.
-          <a href="#modulo-3" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-ferreira-2006">
-          <span class="ref-author">FERREIRA, M.</span> <span class="ref-title">Preservação de longa duração de informação digital no contexto de um arquivo histórico.</span> 2006. 248 f. Tese (Doutorado em Informática) – Escola de Engenharia, Universidade do Minho, Braga, 2006.
-          <a href="#modulo-1" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-formenton-2020">
-          <span class="ref-author">FORMENTON, D.; GRACIOSO, L. de S.</span> <span class="ref-title">Preservação digital:</span> desafios, requisitos, estratégias e produção científica. <span class="ref-journal">RDBCI: Revista Digital de Biblioteconomia e Ciência da Informação</span>, Campinas, SP, v. 18, e020018, p. 1-24, 2020. DOI: 10.20396/rdbci.v018i0.8658868.
-          <a href="#modulo-1" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-formenton-2017">
-          <span class="ref-author">FORMENTON, D. et al.</span> <span class="ref-title">Padrões de metadados para preservação digital:</span> uma análise do PREMIS em repositórios digitais. <span class="ref-journal">Encontros Bibli</span>, Florianópolis, v. 22, n. 50, p. 89-104, set./dez. 2017.
-          <a href="#modulo-5" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-galrao-2017">
-          <span class="ref-author">GALRÃO, P.</span> <span class="ref-title">Arqueologia digital:</span> limites e desafios do resgate de suportes e dados obsoletos. <span class="ref-journal">Cadernos de Arquivística e Patrimônio</span>, Coimbra, v. 5, n. 1, p. 45-62, 2017.
-          <a href="#modulo-3" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-gracio-2013">
-          <span class="ref-author">GRÁCIO, J. C. A.; FADEL, B.; VALENTIM, M. L. P.</span> <span class="ref-title">A preservação digital na gestão da informação:</span> premissas e diretrizes organizacionais. <span class="ref-journal">Informação &amp; Informação</span>, Londrina, v. 18, n. 3, p. 108-128, set./dez. 2013.
-          <a href="#modulo-1" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-hedstrom-1996">
-          <span class="ref-author">HEDSTROM, M.</span> <span class="ref-title">Digital preservation:</span> a time bomb for digital libraries. <span class="ref-journal">Computers and the Humanities</span>, Dordrecht, v. 31, n. 3, p. 189-202, 1996.
-          <a href="#modulo-1" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-hedstrom-2001">
-          <span class="ref-author">HEDSTROM, M.</span> <span class="ref-title">Digital preservation:</span> issues and strategies. In: HIGGINBOTHAM, B. (ed.). <span class="ref-book">Advances in preservation and access</span>. New York: AMS Press, 2001. v. 3, p. 1-28.
-          <a href="#modulo-3" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-innarelli-2009">
-          <span class="ref-author">INNARELLI, H. C.</span> <span class="ref-title">Princípios da preservação digital:</span> os dez mandamentos para a guarda permanente de documentos eletrônicos. <span class="ref-journal">Revista Arquivística.net</span>, Rio de Janeiro, v. 5, n. 2, p. 77-94, 2009.
-          <a href="#modulo-2" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-innarelli-2014">
-          <span class="ref-author">INNARELLI, H. C.</span> <span class="ref-title">Gestão e preservação de documentos arquivísticos digitais.</span> Campinas: Editora da Unicamp, 2014. 192 p.
-          <a href="#modulo-2" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-interpares-2002">
-          <span class="ref-author">INTERPARES PROJECT.</span> <span class="ref-title">The preservation of the integrity of electronic records.</span> Vancouver: University of British Columbia, 2002.
-          <a href="#modulo-1" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-lavoie-2000">
-          <span class="ref-author">LAVOIE, B.</span> <span class="ref-title">Meeting the challenges of digital preservation:</span> the OAIS reference model. <span class="ref-journal">OCLC Newsletter</span>, Dublin, Ohio, n. 243, p. 26-30, Jan./Feb. 2000.
-          <a href="#modulo-5" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-lavoie-gartner-2013">
-          <span class="ref-author">LAVOIE, B.; GARTNER, R.</span> <span class="ref-title">Preservation metadata:</span> DPC Technology Watch Report 13-03. York: Digital Preservation Coalition, 2013. 36 p.
-          <a href="#modulo-5" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-library-canada-2015">
-          <span class="ref-author">LIBRARY AND ARCHIVES CANADA.</span> <span class="ref-title">Guidelines on file formats for transferring information resources of enduring value.</span> Ottawa: LAC, 2015. 42 p.
-          <a href="#modulo-4" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-long-2009">
-          <span class="ref-author">LONG, A. S.</span> <span class="ref-title">Long-term preservation of Web-based materials:</span> experimenting with emulation and migration. <span class="ref-journal">The American Archivist</span>, Chicago, v. 72, n. 2, p. 499-527, Fall/Winter 2009.
-          <a href="#modulo-3" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-arellano-2004">
-          <span class="ref-author">MÁRDERO ARELLANO, J. A.</span> <span class="ref-title">Preservação de documentos digitais.</span> <span class="ref-journal">Ciência da Informação</span>, Brasília, v. 33, n. 2, p. 15-27, maio/ago. 2004.
-          <a href="#modulo-1" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-arellano-2008">
-          <span class="ref-author">MÁRDERO ARELLANO, J. A.</span> <span class="ref-title">Critérios para a preservação digital da informação científica.</span> 2008. 352 f. Tese (Doutorado em Ciência da Informação) – Universidade de Brasília, Brasília, 2008.
-          <a href="#modulo-1" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-arellano-2012">
-          <span class="ref-author">MÁRDERO ARELLANO, J. A.</span> <span class="ref-title">A Rede Brasileira de Serviços de Preservação Digital Cariniana.</span> <span class="ref-journal">Ibersid</span>, Zaragoza, v. 6, p. 127-131, 2012.
-          <a href="#modulo-3" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-national-archives-australia-2020">
-          <span class="ref-author">NATIONAL ARCHIVES OF AUSTRALIA.</span> <span class="ref-title">Long-term file formats.</span> Canberra: NAA, c2020.
-          <a href="#modulo-4" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-pearson-2009">
-          <span class="ref-author">PEARSON, D.; DEL POZO, N.</span> <span class="ref-title">Digital preservation:</span> primary and secondary strategies in cultural heritage institutions. <span class="ref-journal">Journal of the Society of Archivists</span>, London, v. 30, n. 2, p. 175-195, 2009.
-          <a href="#modulo-3" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-rockembach-pavao-2018">
-          <span class="ref-author">ROCKEMBACH, M.; PAVÃO, C. M. G.</span> <span class="ref-title">Arquivamento da Web:</span> estudos de caso internacionais e o panorama brasileiro. <span class="ref-journal">Informação &amp; Sociedade</span>, João Pessoa, v. 28, n. 1, p. 147-160, 2018.
-          <a href="#modulo-3" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-rothenberg-1995">
-          <span class="ref-author">ROTHENBERG, J.</span> <span class="ref-title">Ensuring the longevity of digital documents.</span> <span class="ref-journal">Scientific American</span>, New York, v. 272, n. 1, p. 42-47, Jan. 1995.
-          <a href="#modulo-3" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-rothenberg-1999">
-          <span class="ref-author">ROTHENBERG, J.</span> <span class="ref-title">Avoiding technological quicksand:</span> finding a viable technical foundation for digital preservation. Washington, DC: Council on Library and Information Resources (CLIR), 1999. 46 p.
-          <a href="#modulo-3" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-rothenberg-2000">
-          <span class="ref-author">ROTHENBERG, J.</span> <span class="ref-title">Using emulation to preserve digital documents.</span> The Hague: Koninklijke Bibliotheek, 2000. 72 p.
-          <a href="#modulo-3" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-santos-flores-2014">
-          <span class="ref-author">SANTOS, H. M. dos; FLORES, D.</span> <span class="ref-title">A fidedignidade do documento arquivístico digital:</span> uma abordagem da diplomática digital e da cadeia de custódia. <span class="ref-journal">Ágora</span>, Florianópolis, v. 24, n. 49, p. 95-118, jul./dez. 2014.
-          <a href="#modulo-1" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-santos-flores-2015">
-          <span class="ref-author">SANTOS, H. M. dos; FLORES, D.</span> <span class="ref-title">O objeto digital e suas propriedades no contexto arquivístico:</span> desafios e estratégias para a preservação digital sistêmica. <span class="ref-journal">Tendências da Pesquisa Brasileira em Ciência da Informação</span>, Brasília, v. 8, n. 2, p. 1-22, 2015.
-          <a href="#modulo-1" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-santos-flores-2017">
-          <span class="ref-author">SANTOS, H. M. dos; FLORES, D.</span> <span class="ref-title">Preservação digital de documentos arquivísticos em repositórios digitais confiáveis.</span> <span class="ref-journal">Brazilian Journal of Information Science</span>, Marília, v. 11, n. 3, p. 25-36, set. 2017.
-          <a href="#modulo-3" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-sayao-2007">
-          <span class="ref-author">SAYÃO, L. F.</span> <span class="ref-title">Metadados para preservação digital:</span> aplicação do modelo OAIS. Rio de Janeiro: CONARQ, 2007. 67 slides.
-          <a href="#modulo-5" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-souza-aganette-2021">
-          <span class="ref-author">SOUZA, R. F. de; AGANETTE, E.</span> <span class="ref-title">Preservação digital e a gestão da memória institucional:</span> um diálogo multidisciplinar entre arquivologia e ciência da computação. <span class="ref-journal">Revista Ibero-Americana de Ciência da Informação</span>, Brasília, v. 14, n. 2, p. 430-449, maio/ago. 2021.
-          <a href="#modulo-1" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-swade-1992">
-          <span class="ref-author">SWADE, D.</span> <span class="ref-title">Collecting software for preserving computer history.</span> <span class="ref-journal">History of Computing</span>, London, v. 14, n. 4, p. 18-24, 1992.
-          <a href="#modulo-3" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-taskforce-1996">
-          <span class="ref-author">TASK FORCE ON ARCHIVING OF DIGITAL INFORMATION.</span> <span class="ref-title">Preserving digital information:</span> report of the Task Force on Archiving of Digital Information. Washington, DC: Commission on Preservation and Access; Research Libraries Group (RLG), 1996. 64 p.
-          <a href="#modulo-3" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-thibodeau-2002">
-          <span class="ref-author">THIBODEAU, K.</span> <span class="ref-title">Overview of technological approaches to digital preservation and challenges in coming years.</span> In: COUNCIL ON LIBRARY AND INFORMATION RESOURCES. <span class="ref-book">The state of digital preservation:</span> an international perspective. Washington, DC: CLIR, 2002. p. 4-31.
-          <a href="#modulo-1" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-thomaz-soares-2004">
-          <span class="ref-author">THOMAZ, K. P.; SOARES, A. J.</span> <span class="ref-title">A preservação digital e o modelo de referência Open Archival Information System (OAIS).</span> <span class="ref-journal">DataGramaZero</span>, Rio de Janeiro, v. 5, n. 1, p. 1-14, fev. 2004.
-          <a href="#modulo-2" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-thorpe-2015">
-          <span class="ref-author">THORPE, C.</span> <span class="ref-title">Hardware donations to support emulation at the National Library of Australia.</span> Canberra: NLA Staff Papers, 2015. 16 p.
-          <a href="#modulo-3" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-unesco-2003">
-          <span class="ref-author">UNESCO.</span> <span class="ref-title">Charter on the preservation of the digital heritage.</span> Paris: UNESCO, 2003. 4 p.
-          <a href="#modulo-1" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-webb-1999">
-          <span class="ref-author">WEBB, C.</span> <span class="ref-title">Because it's time:</span> saving digital heritage. In: NATIONAL LIBRARY OF AUSTRALIA. <span class="ref-book">Preserving the digital heritage</span>. Canberra: NLA, 1999. p. 1-12.
-          <a href="#modulo-1" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-        <li class="reference-item" id="ref-willer-2008">
-          <span class="ref-author">WILLER, M. et al.</span> <span class="ref-title">The costs of digital preservation:</span> models and practical considerations. <span class="ref-journal">Vine: The Journal of Information and Knowledge Management Systems</span>, Bingley, v. 38, n. 1, p. 82-96, 2008.
-          <a href="#modulo-3" class="ref-back-link"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
-        </li>
-
-      </ul>
-      <a href="#menu" class="quick-nav-btn back-to-menu">
-        <i data-lucide="arrow-up" aria-hidden="true" style="width:16px;height:16px;"></i> Voltar ao menu
+<ul class="bibliography-list">
+<li class="reference-item" data-status="localizada" id="ref-bode-2016">BODÊ, Ernesto Carlos. <strong>Documento digital e preservação digital: algumas considerações conceituais.</strong> Revista Ibero-Americana de Ciência da Informação, v. 9, n. 2, p. 503–516, 2016.<a class="ref-back-link" href="#modulo-1"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a><a href="https://periodicos.unb.br/index.php/RICI/article/view/2425" rel="noopener noreferrer" target="_blank">Acessar publicação ↗</a></li><li class="reference-item" data-status="localizada" id="ref-boeres-2017">BOERES, Sonia Araújo de Assis. <strong>Competências para equipes de profissionais no contexto da preservação digital.</strong> 2017. Tese (Doutorado em Ciência da Informação) — Universidade de Brasília, Brasília, 2017.<a class="ref-back-link" href="#modulo-3"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a><a href="https://repositorio.unb.br/bitstream/10482/24354/1/2017_SoniaAraujodeAssisBoeres.pdf" rel="noopener noreferrer" target="_blank">Acessar publicação ↗</a></li><li class="reference-item" data-status="consultada" id="ref-corujo-2014">CORUJO, Luis Miguel Nunes. <strong>Repositórios digitais e confiança: um exemplo de repositório de preservação digital: o RODA.</strong> 2014. Dissertação (Mestrado em Ciências da Documentação e Informação) — Faculdade de Letras, Universidade de Lisboa, Lisboa, 2014. Disponível em: <a href="https://eprints.rclis.org/30375/" rel="noopener noreferrer" target="_blank">Acessar publicação ↗</a>. Acesso em: 11 nov. 2026.<a class="ref-back-link" href="#modulo-7">Voltar ao início das referências</a></li><li class="reference-item" data-status="localizada" id="ref-dpc-2015">
+<span class="ref-author">DIGITAL PRESERVATION COALITION (DPC).</span> <span class="ref-title">Digital preservation handbook.</span> 2. ed. York: DPC, 2015.
+          <a class="ref-back-link" href="#modulo-3"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
+<a href="https://www.dpconline.org/handbook" rel="noopener noreferrer" target="_blank">Acessar publicação ↗</a></li><li class="reference-item" data-status="localizada" id="ref-formenton-2017">FORMENTON, Danilo et al. <strong>Os padrões de metadados como recursos tecnológicos para a garantia da preservação digital.</strong> Biblios, n. 68, p. 82–95, 2017.<a class="ref-back-link" href="#modulo-5"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a><a href="https://www.scielo.org.pe/scielo.php?pid=S1562-47302017000300006&amp;script=sci_arttext" rel="noopener noreferrer" target="_blank">Acessar publicação ↗</a></li><li class="reference-item" data-status="localizada" id="ref-formenton-2020">FORMENTON, Danilo; GRACIOSO, Luciana de Souza. <strong>Preservação digital: desafios, requisitos, estratégias e produção científica.</strong> RDBCI, v. 18, e020012, 2020.<a class="ref-back-link" href="#modulo-1"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a><a href="https://periodicos.sbu.unicamp.br/ojs/index.php/rdbci/article/view/8659259" rel="noopener noreferrer" target="_blank">Acessar publicação ↗</a></li><li class="reference-item" data-status="localizada" id="ref-gracio-2013">GRÁCIO, José Carlos Abbud; FADEL, Bárbara; VALENTIM, Marta Lígia Pomim. <strong>Preservação digital nas instituições de ensino superior: aspectos organizacionais, legais e técnicos.</strong> Perspectivas em Ciência da Informação, v. 18, n. 3, 2013.<a class="ref-back-link" href="#modulo-1"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a><a href="https://repositorio.unesp.br/entities/publication/e80f5e2e-eef5-4b21-82b3-5a99e3e48b12" rel="noopener noreferrer" target="_blank">Acessar publicação ↗</a></li><li class="reference-item" data-status="localizada" id="ref-lavoie-gartner-2013">
+<span class="ref-author">LAVOIE, B.; GARTNER, R.</span> <span class="ref-title">Preservation metadata:</span> DPC Technology Watch Report 13-03. York: Digital Preservation Coalition, 2013. 36 p.
+          <a class="ref-back-link" href="#modulo-5"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
+<a href="https://www.oclc.org/research/publications/2013/preservation-metadata-2nd-edition.html" rel="noopener noreferrer" target="_blank">Acessar publicação ↗</a></li><li class="reference-item" data-status="consultada" id="ref-martins-2025">MARTINS, Thiago Rafael; SILVA, Vagner Domingues da; RIBEIRO, Daniela Antonio; NASCIMENTO, Natália Marinho do. <strong>Preservação digital de arquivos pessoais digitais: um estudo de literatura.</strong> Trabalho apresentado no XI Encontro EDICIC Ibérico, Porto, 2025. Disponível em: <a href="https://arquivistica.fci.unb.br/wp-content/uploads/tainacan-items/476350/1090193/PRESERVACAO-DIGITAL-DE-ARQUIVOS-PESSOAIS-DIGITAIS-UM-ESTUDO-DE-LITERATURA.pdf" rel="noopener noreferrer" target="_blank">Acessar publicação ↗</a>. Acesso em: 11 nov. 2026.<a class="ref-back-link" href="#modulo-7">Voltar ao início das referências</a></li><li class="reference-item" data-status="consultada" id="ref-bibliografia-2021">MÁRDERO ARELLANO, Miguel Angel; SANTOS, Gildenir Carolino (org.). <strong>Bibliografia sobre preservação digital: um levantamento nos diversos suportes informacionais.</strong> Campinas, SP: BCCL/UNICAMP, 2021. (Coleção Preservação Digital, v. 1). ISBN 978-65-88816-11-0. Disponível em: <a href="https://doi.org/10.20396/ISBN9786588816110" rel="noopener noreferrer" target="_blank">Acessar publicação ↗</a>. Acesso em: 11 nov. 2026.<a class="ref-back-link" href="#modulo-7">Voltar ao início das referências</a></li><li class="reference-item" data-status="consultada" id="ref-arellano-2008">MÁRDERO ARELLANO, Miguel Ángel. <strong>Critérios para a preservação digital da informação científica.</strong> 2008. Tese (Doutorado em Ciência da Informação) — Universidade de Brasília, Brasília, 2008. Disponível em: <a href="https://repositorio.unb.br/handle/10482/1518" rel="noopener noreferrer" target="_blank">Acessar publicação ↗</a>. Acesso em: 11 nov. 2026.<a class="ref-back-link" href="#modulo-7">Voltar ao início das referências</a></li><li class="reference-item" data-status="consultada" id="ref-arellano-2004">ARELLANO, Miguel Angel. <strong>Preservação de documentos digitais.</strong> Ciência da Informação, Brasília, v. 33, n. 2, p. 15–27, 2004. Disponível em: <a href="https://doi.org/10.1590/S0100-19652004000200002" rel="noopener noreferrer" target="_blank">Acessar publicação ↗</a>. Acesso em: 11 nov. 2026.<a class="ref-back-link" href="#modulo-7">Voltar ao início das referências</a></li><li class="reference-item" data-status="localizada" id="ref-rothenberg-1999">
+<span class="ref-author">ROTHENBERG, J.</span> <span class="ref-title">Avoiding technological quicksand:</span> finding a viable technical foundation for digital preservation. Washington, DC: Council on Library and Information Resources (CLIR), 1999. 46 p.
+          <a class="ref-back-link" href="#modulo-3"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
+<a href="https://www.clir.org/pubs/reports/rothenberg/" rel="noopener noreferrer" target="_blank">Acessar publicação ↗</a></li><li class="reference-item" data-status="consultada" id="ref-souza-aganette-2022">SOUZA, Luciana Gonçalves Silva; AGANETTE, Elisângela Cristina. <strong>Preservação digital: perspectivas e relações com a gestão documental e a cultura organizacional.</strong> AtoZ: novas práticas em informação e conhecimento, v. 11, p. 1–13, 2022. Disponível em: <a href="https://doi.org/10.5380/atoz.v11.82714" rel="noopener noreferrer" target="_blank">Acessar publicação ↗</a>. Acesso em: 11 nov. 2026.<a class="ref-back-link" href="#modulo-7">Voltar ao início das referências</a></li><li class="reference-item" data-status="localizada" id="ref-thibodeau-2002">
+<span class="ref-author">THIBODEAU, K.</span> <span class="ref-title">Overview of technological approaches to digital preservation and challenges in coming years.</span> In: COUNCIL ON LIBRARY AND INFORMATION RESOURCES. <span class="ref-book">The state of digital preservation:</span> an international perspective. Washington, DC: CLIR, 2002. p. 4-31.
+          <a class="ref-back-link" href="#modulo-1"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
+<a href="https://www.clir.org/pubs/reports/pub107/thibodeau/" rel="noopener noreferrer" target="_blank">Acessar publicação ↗</a></li><li class="reference-item" data-status="localizada" id="ref-unesco-2003">
+<span class="ref-author">UNESCO.</span> <span class="ref-title">Charter on the preservation of the digital heritage.</span> Paris: UNESCO, 2003. 4 p.
+          <a class="ref-back-link" href="#modulo-1"><i data-lucide="arrow-up-left" style="width:12px;height:12px;"></i> Voltar ao texto</a>
+<a href="https://www.unesco.org/en/legal-affairs/charter-preservation-digital-heritage" rel="noopener noreferrer" target="_blank">Acessar publicação ↗</a></li></ul>
+<a class="quick-nav-btn back-to-menu" href="#menu">
+<i aria-hidden="true" data-lucide="arrow-up" style="width:16px;height:16px;"></i> Voltar ao menu
       </a>
-    </article>
-
-  </main>
-
-  <footer style="background:var(--primary); color:var(--on-primary); padding:var(--space-xl) var(--space-lg); border-top:3px solid var(--outline); margin-top:var(--space-3xl);">
-    <!-- Referência do próprio recurso (ABNT NBR 6023:2018) -->
-    <div style="max-width:1240px; margin:0 auto var(--space-lg); border-bottom:1px solid rgba(124, 225, 204, 0.35); padding-bottom:var(--space-md);">
-      <p style="margin:0 0 var(--space-xs); font-size:0.78rem; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:var(--outline);">Como citar este recurso</p>
-      <p style="margin:0; font-size:0.92rem; line-height:1.55; color:var(--on-primary);">SILVA, Andréa Soares Rocha da. <strong>Preservação de longo prazo de conteúdos digitais</strong> [Recurso Educacional Digital Interativo]. Fortaleza: Universidade Federal do Ceará, 2026.</p>
-    </div>
-    <div style="max-width:1240px; margin:0 auto; display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:var(--space-md); font-size:0.85rem;">
-      <div>
-        <p style="margin:0; font-weight:600; color:var(--on-primary);">
+</article>
+</main>
+<footer style="background:var(--primary); color:var(--on-primary); padding:var(--space-xl) var(--space-lg); border-top:3px solid var(--outline); margin-top:var(--space-3xl);">
+<!-- Referência do próprio recurso (ABNT NBR 6023:2018) -->
+<div style="max-width:1240px; margin:0 auto var(--space-lg); border-bottom:1px solid rgba(124, 225, 204, 0.35); padding-bottom:var(--space-md);">
+<p style="margin:0 0 var(--space-xs); font-size:0.78rem; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:var(--outline);">Como citar este recurso</p>
+<p style="margin:0; font-size:0.92rem; line-height:1.55; color:var(--on-primary);">SILVA, Andréa Soares Rocha da. <strong>Preservação de longo prazo de conteúdos digitais</strong> [Recurso Educacional Digital Interativo]. Fortaleza: Universidade Federal do Ceará, 2026.</p>
+</div>
+<div style="max-width:1240px; margin:0 auto; display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:var(--space-md); font-size:0.85rem;">
+<div>
+<p style="margin:0; font-weight:600; color:var(--on-primary);">
           Nota de Aula: Preservação de Longo Prazo de Conteúdos Digitais
         </p>
-        <p style="margin:4px 0 0; color:#c2bba9;">
+<p style="margin:4px 0 0; color:#c2bba9;">
           Disciplina de Conteúdos Digitais e suas Técnicas de Produção e de Preservação • PPGCI •  Universidade Federal do Ceará (UFC)
         </p>
-        <p style="margin:4px 0 0; color:#c2bba9;">
-          Declaração de uso de IA: Recurso Educacional Digital Interativo (REDI) gerado pelo NotebookLM, a partir de prompt elaborado pela Profa. Andréa Soares Rocha da Silva, a qual revisou e fez os ajustes de conteúdo, design e interação diretamente no código HTML.
-        </p>
-      </div>
-      <div>
-        <a href="#topo" style="color:var(--outline); text-decoration:none; font-weight:700; display:inline-flex; align-items:center; gap:4px;">
-          <i data-lucide="arrow-up" style="width:14px;height:14px;"></i> Retornar ao Topo da Página
+<p style="margin:4px 0 0; color:#c2bba9;">Declaração de uso de IA: versão inicial gerada pelo NotebookLM a partir de prompt da Profa. Andréa Soares Rocha da Silva; revisão do código e das citações com apoio do ChatGPT. Curadoria e validação final da autora.</p>
+</div>
+<div>
+<a href="#topo" style="color:var(--outline); text-decoration:none; font-weight:700; display:inline-flex; align-items:center; gap:4px;">
+<i data-lucide="arrow-up" style="width:14px;height:14px;"></i> Retornar ao Topo da Página
         </a>
-      </div>
-    </div>
-  </footer>
-
-  <api-shim></api-shim>
-
-  <script>
+</div>
+</div>
+</footer>
+<api-shim></api-shim>
+<script>
     // Inicialização dos ícones Lucide
     document.addEventListener('DOMContentLoaded', function() {
       if (typeof lucide !== 'undefined') {
@@ -2348,19 +1979,19 @@
         document.querySelector('.layer-physical').classList.add('active');
         if (detailTitle) detailTitle.textContent = 'Camada Física: Salvaguarda da Mídia e Integridade do Suporte';
         if (detailContent) {
-          detailContent.innerHTML = '<p>Centra-se na conservação e refrescamento dos suportes físicos onde as sequências binárias residem (fitas LTO, discos rígidos corporativos, ópticos e matrizes SSD). Ameaças críticas: degradação química, perda de magnetização, delaminação óptica e obsolescência mecânica de unidades de leitura (drives). Estratégias típicas: recópia periódica e climatização rigorosa com redundância geográfica (<a href="#ref-arellano-2004" class="cite-link">Márdero Arellano, 2004</a>; <a href="#ref-ferreira-2006" class="cite-link">Ferreira, 2006</a>).</p>';
+          detailContent.innerHTML = "<p>A camada física envolve os suportes em que os dados são registrados. Acompanhe a degradação das mídias e a disponibilidade dos leitores. O refrescamento transfere a informação para outro suporte antes de sua deterioração ou obsolescência (<a class=\"cite-link\" href=\"#ref-arellano-2004\">Arellano, 2004, p. 17–18</a>; <a class=\"cite-link\" data-original=\"ref-ferreira-2006\" href=\"#ref-formenton-2020\">Ferreira, 2006 <em>apud</em> Formenton; Gracioso, 2020, p. 13–14</a>).</p>";
         }
       } else if (camada === 'logical') {
         document.querySelector('.layer-logical').classList.add('active');
         if (detailTitle) detailTitle.textContent = 'Camada Lógica: Bitstream, Formatos de Arquivo e Interpretadores';
         if (detailContent) {
-          detailContent.innerHTML = '<p>Compreende a sequência de bits (0s e 1s), sua codificação em formatos e esquemas de compressão. A ameaça primordial nesta camada é a <strong>obsolescência do software interpretador</strong> ou o encerramento de padrões proprietários fechados. Estratégias fundamentais: migração de formatos para especificações abertas (ex: TIFF para preservação de imagem; PDF/A para textos) e emulação de ambiente operacional (<a href="#ref-thibodeau-2002" class="cite-link">Thibodeau, 2002</a>; <a href="#ref-santos-flores-2015" class="cite-link">Santos; Flores, 2015</a>).</p>';
+          detailContent.innerHTML = "<p>A camada lógica envolve a codificação e as condições de interpretação do objeto. A obsolescência de programas e formatos pode comprometer a leitura. Migração e emulação enfrentam esse problema por caminhos diferentes (<a class=\"cite-link\" href=\"#ref-thibodeau-2002\">Thibodeau, 2002</a>; <a class=\"cite-link\" href=\"#ref-formenton-2020\">Formenton; Gracioso, 2020, p. 13–14</a>).</p>";
         }
       } else if (camada === 'conceptual') {
         document.querySelector('.layer-conceptual').classList.add('active');
         if (detailTitle) detailTitle.textContent = 'Camada Conceitual: Significado Intelectual, Renderização e Funcionalidades';
         if (detailContent) {
-          detailContent.innerHTML = '<p>Diz respeito ao documento tal como apreendido e interpretado pelos sentidos humanos: o texto estruturado, a paginação, a renderização gráfica, o som acústico ou a resposta a comandos de navegação e hiperlinks. Preservar este nível exige garantir que sucessivas conversões técnicas na camada lógica não desfigurem as <strong>propriedades significativas</strong> e a força probatória do documento original (<a href="#ref-webb-1999" class="cite-link">Webb, 1999</a>; <a href="#ref-unesco-2003" class="cite-link">UNESCO, 2003</a>; <a href="#ref-arquivo-nacional-2016" class="cite-link">Arquivo Nacional, 2016</a>).</p>';
+          detailContent.innerHTML = "<p>A camada conceitual corresponde ao conteúdo que conseguimos perceber e interpretar. Ao migrar ou emular, confira se as propriedades significativas, a apresentação e as funcionalidades necessárias foram mantidas (<a class=\"cite-link\" href=\"#ref-thibodeau-2002\">Thibodeau, 2002</a>; <a class=\"cite-link\" href=\"#ref-corujo-2014\">Corujo, 2014, p. 22–24</a>).</p>";
         }
       }
     }
@@ -2372,47 +2003,47 @@
       if (!title || !text) return;
 
       const infoMap = {
-        produtor: {
-          titulo: 'Entidade Externa: Produtor (Producer)',
-          texto: 'Pessoas físicas, departamentos ou sistemas institucionais responsáveis por gerar e fornecer as informações a serem preservadas. Estabelece com a administração do arquivo um "Acordo de Submissão", no qual se estipulam padrões de metadados, periodicidade de envio e formatos aceitos (<a href="#ref-ccsds-2002" class="cite-link">CCSDS, 2002</a>).'
-        },
-        sip: {
-          titulo: 'Pacote de Informação: SIP (Submission Information Package)',
-          texto: 'Pacote de Submissão de Informação entregue pelo Produtor ao repositório. Contém os dados primários brutos acompanhados de metadados mínimos de identificação, proveniência e descrição técnica estipulados no acordo prévio (<a href="#ref-lavoie-2000" class="cite-link">Lavoie, 2000</a>).'
-        },
-        ingest: {
-          titulo: 'Entidade Funcional: Ingestão (Ingest)',
-          texto: 'Porta de entrada do repositório. Valida os dados submetidos pelo Produtor quanto à integridade (checksums) e conformidade de formato (usando analisadores como JHOVE). Efetua extração de metadados técnicos, executa controle contra vírus e transforma o SIP no Pacote de Arquivamento de Informação (AIP) (<a href="#ref-sayao-2007" class="cite-link">Sayão, 2007</a>).'
-        },
-        storage: {
-          titulo: 'Entidade Funcional: Armazenamento Arquivístico (Archival Storage)',
-          texto: 'Módulo encarregado da salvaguarda imutável dos Pacotes de Arquivamento de Informação (AIP). Gerencia o subsistema de armazenamento em mídias estáveis, desempenha rotinas contínuas de checagem de integridade (MD5/SHA), recuperação de desastres e refrescamento de suportes magnéticos ou ópticos (<a href="#ref-ccsds-2002" class="cite-link">CCSDS, 2002</a>).'
-        },
-        data_mgmt: {
-          titulo: 'Entidade Funcional: Gestão de Dados (Data Management)',
-          texto: 'Base de dados relacional ou indexador encarregado de gerir os metadados descritivos, estruturais e administrativos do repositório. Executa consultas textuais, atualizações de catálogos e suporta a pesquisa realizada pelo módulo de Acesso (<a href="#ref-thomaz-soares-2004" class="cite-link">Thomaz; Soares, 2004</a>).'
-        },
-        administration: {
-          titulo: 'Entidade Funcional: Administração (Administration)',
-          texto: 'Coordena a operação diária do repositório e o cumprimento da política institucional. Negocia acordos de submissão com produtores, supervisiona custos, define perfis de autenticação de usuários e audita relatórios de conformidade técnica (<a href="#ref-abnt-2007" class="cite-link">ABNT NBR 15472, 2007</a>).'
-        },
-        planning: {
-          titulo: 'Entidade Funcional: Planejamento da Preservação (Preservation Planning)',
-          texto: 'Monitora continuamente a evolução tecnológica do mercado e os requisitos da comunidade de usuários. Alerta a administração quando um formato corre risco de obsolescência iminente e projeta planos de migração automatizados ou desenvolvimento de emuladores (<a href="#ref-lavoie-2000" class="cite-link">Lavoie, 2000</a>).'
-        },
-        access: {
-          titulo: 'Entidade Funcional: Acesso (Access)',
-          texto: 'Interface de diálogo com os usuários finais. Controla permissões de segurança, processa ordens de busca, localiza os AIPs correspondentes no armazenamento arquivístico e gera sob medida o Pacote de Disseminação de Informação (DIP) para entrega ao consumidor (<a href="#ref-sayao-2007" class="cite-link">Sayão, 2007</a>).'
-        },
-        dip: {
-          titulo: 'Pacote de Informação: DIP (Dissemination Information Package)',
-          texto: 'Pacote de Disseminação de Informação gerado sob demanda para entrega à comunidade designada. Geralmente configurado em formatos leves e de fácil renderização (ex: PDF otimizado para web, MP4 streaming, JPEG comprimido) (<a href="#ref-ccsds-2002" class="cite-link">CCSDS, 2002</a>).'
-        },
-        consumidor: {
-          titulo: 'Entidade Externa: Consumidor / Comunidade Designada (Designated Community)',
-          texto: 'Conjunto de usuários (pesquisadores, cidadãos, auditores) para o qual o repositório foi construído. O repositório compromete-se a entregar a informação de maneira que a base de conhecimento dessa comunidade seja suficiente para interpretá-la sem perdas de significado (<a href="#ref-lavoie-2000" class="cite-link">Lavoie, 2000</a>).'
-        }
-      };
+  "produtor": {
+    "titulo": "Entidade externa: Produtor",
+    "texto": "Pessoa, organização ou sistema que fornece informação ao arquivo, segundo as condições de submissão estabelecidas. (<a class=\"cite-link\" href=\"#ref-corujo-2014\">Corujo, 2014, p. 65–84</a>)."
+  },
+  "sip": {
+    "titulo": "Pacote: SIP — Submission Information Package",
+    "texto": "Pacote submetido pelo produtor ao arquivo. Seus dados e informações associadas são recebidos pela ingestão. (<a class=\"cite-link\" href=\"#ref-corujo-2014\">Corujo, 2014, p. 65–84</a>)."
+  },
+  "ingest": {
+    "titulo": "Entidade funcional: Ingestão",
+    "texto": "Recebe o SIP, realiza controle de qualidade, prepara o AIP e gera informação descritiva. Verificações e ferramentas específicas dependem da implementação. (<a class=\"cite-link\" href=\"#ref-corujo-2014\">Corujo, 2014, p. 65–84</a>)."
+  },
+  "storage": {
+    "titulo": "Entidade funcional: Armazenamento Arquivístico",
+    "texto": "Recebe e mantém os AIPs, gerencia os suportes e executa verificações e atividades de recuperação e manutenção do armazenamento. (<a class=\"cite-link\" href=\"#ref-corujo-2014\">Corujo, 2014, p. 65–84</a>)."
+  },
+  "data_mgmt": {
+    "titulo": "Entidade funcional: Gestão de Dados",
+    "texto": "Mantém e consulta informações descritivas e administrativas que apoiam a localização e a gestão do conteúdo preservado. (<a class=\"cite-link\" href=\"#ref-corujo-2014\">Corujo, 2014, p. 65–84</a>)."
+  },
+  "administration": {
+    "titulo": "Entidade funcional: Administração",
+    "texto": "Coordena a operação do arquivo e suas relações com produtores, consumidores e gestão institucional. (<a class=\"cite-link\" href=\"#ref-corujo-2014\">Corujo, 2014, p. 65–84</a>)."
+  },
+  "planning": {
+    "titulo": "Entidade funcional: Planejamento da Preservação",
+    "texto": "Acompanha o ambiente tecnológico e as necessidades dos usuários; propõe recomendações e planos para manter o acesso à informação. (<a class=\"cite-link\" href=\"#ref-corujo-2014\">Corujo, 2014, p. 65–84</a>)."
+  },
+  "access": {
+    "titulo": "Entidade funcional: Acesso",
+    "texto": "Atende pedidos, localiza informação e prepara a entrega dos pacotes de disseminação aos consumidores. (<a class=\"cite-link\" href=\"#ref-corujo-2014\">Corujo, 2014, p. 65–84</a>)."
+  },
+  "dip": {
+    "titulo": "Pacote: DIP — Dissemination Information Package",
+    "texto": "Pacote fornecido em resposta a uma solicitação de acesso. Pode diferir do pacote preservado e deve atender às condições de disseminação do arquivo. (<a class=\"cite-link\" href=\"#ref-corujo-2014\">Corujo, 2014, p. 65–84</a>)."
+  },
+  "consumidor": {
+    "titulo": "Entidade externa: Consumidor",
+    "texto": "Usuário ou sistema que solicita e recebe informação do arquivo. A comunidade designada é o grupo para o qual o arquivo assume o compromisso de manter a informação compreensível. (<a class=\"cite-link\" href=\"#ref-corujo-2014\">Corujo, 2014, p. 65–84</a>)."
+  }
+};
 
       if (infoMap[modulo]) {
         title.innerHTML = infoMap[modulo].titulo;
@@ -2435,33 +2066,33 @@
         badge.textContent = 'Estratégia Recomendada: Emulação com Encapsulamento';
         badge.className = 'recommendation-badge badge-primary-rec';
         title.textContent = 'Emulação de Hardware/SO e Encapsulamento de Metadados';
-        desc.innerHTML = 'Para softwares, jogos e objetos hipermídia interativos, a migração comum destrói o comportamento lógico e os scripts nativos. A emulação (via máquinas virtuais como v86, QEMU ou DOSBox) permite rodar o código binário original inalterado (<a href="#ref-rothenberg-1999" class="cite-link">Rothenberg, 1999</a>; <a href="#ref-long-2009" class="cite-link">Long, 2009</a>).';
-        mitigation.textContent = 'Salvar imagens de disco em padrão ISO/RAW e documentar as especificações de CPU, BIOS e periféricos no padrão PREMIS com redundância em nós distribuídos.';
+        desc.innerHTML = "Para objetos interativos, avalie se a preservação depende de reproduzir seu ambiente de execução. A emulação pode manter o acesso ao formato nativo, mas exige testes e pode depender de programas que também se tornam obsoletos (<a class=\"cite-link\" data-original=\"ref-long-2009\" href=\"#ref-formenton-2020\">Long, 2009 <em>apud</em> Formenton; Gracioso, 2020, p. 14</a>; <a class=\"cite-link\" href=\"#ref-formenton-2020\">Formenton; Gracioso, 2020, p. 14</a>).";
+        mitigation.textContent = 'Guardar os objetos, documentar o ambiente de execução e testar a emulação com as funcionalidades necessárias.';
       } else if (objType === 'web') {
         badge.textContent = 'Estratégia Recomendada: Web Archiving (Contêineres WARC)';
         badge.className = 'recommendation-badge badge-primary-rec';
-        title.textContent = 'Captura Sistemática via Heritrix e Empacotamento em WARC (ISO 28500)';
-        desc.innerHTML = 'Para páginas da web e acervos dinâmicos de portais institucionais, a estratégia mais consolidada mundialmente consiste na coleta periódica de snapshots de rede encapsulados no formato WARC, permitindo navegação retrospectiva via Wayback Machine (<a href="#ref-rockembach-pavao-2018" class="cite-link">Rockembach; Pavão, 2018</a>).';
-        mitigation.textContent = 'Auditar links de dependência externa e adotar o protocolo Memento (RFC 7089) para navegação temporal em cooperação com iniciativas como Arquivo.pt e Internet Archive.';
+        title.textContent = 'Captura documentada e verificação de conteúdos da Web';
+        desc.innerHTML = "Arquivar a Web envolve selecionar, coletar e manter conteúdos para recuperação e acesso futuros. Documente a captura e confira se os elementos necessários foram registrados. A discussão sobre o contexto brasileiro é apresentada por <a class=\"cite-link\" data-original=\"ref-rockembach-pavao-2018\" href=\"#ref-formenton-2020\">Rockembach; Pavão, 2018 <em>apud</em> Formenton; Gracioso, 2020, p. 15</a>.";
+        mitigation.textContent = 'Verificar as dependências externas e testar a navegação e a recuperação do conteúdo capturado.';
       } else if (objType === 'data') {
         badge.textContent = 'Estratégia Recomendada: Normalização e Dicionário de Dados';
         badge.className = 'recommendation-badge badge-primary-rec';
-        title.textContent = 'Conversão para CSV UTF-8 / SIARD com Esquema JSON-Schema';
-        desc.innerHTML = 'Para dados de pesquisa e séries estatísticas em longo prazo, sistemas proprietários (como SAS ou Access) devem ser abandonados em prol de formatos tabulares abertos em texto puro (CSV UTF-8) ou no padrão de arquivamento de bancos de dados relacionais SIARD, sempre acompanhados de seus dicionários de variáveis (<a href="#ref-thibodeau-2002" class="cite-link">Thibodeau, 2002</a>).';
-        mitigation.textContent = 'Calcular somas de verificação SHA-256 no nível do dataset e de cada coluna mestra para atestar imutabilidade.';
+        title.textContent = 'Exportação documentada e preservação da estrutura dos dados';
+        desc.innerHTML = "Para conjuntos de dados, avalie a exportação para formatos documentados e mantenha estrutura, relações e informações sobre as variáveis. A dissertação sobre o RODA apresenta a separação entre dados e sistema de gestão como questão de preservação (<a class=\"cite-link\" href=\"#ref-corujo-2014\">Corujo, 2014, p. 130</a>).";
+        mitigation.textContent = 'Verificar a integridade e conservar documentação que permita interpretar e reutilizar os dados.';
       } else if (objType === 'audio_video') {
         badge.textContent = 'Estratégia Recomendada: Conversão para Codecs Abertos sem Perdas';
         badge.className = 'recommendation-badge badge-primary-rec';
-        title.textContent = 'Arquivamento em FFV1/Matroska (Vídeo) e BWF Linear PCM (Áudio)';
-        desc.innerHTML = 'Para recursos sonoros e audiovisuais, a transposição para padrões abertos sem compressão destrutiva garante perenidade sem royalties. Use Broadcast Wave Format (BWF 24b/96kHz) para áudio e FFV1 em contêiner Matroska (MKV) para vídeo histórico (<a href="#ref-library-canada-2015" class="cite-link">Library and Archives Canada, 2015</a>).';
-        mitigation.textContent = 'Monitorar continuamente o espaço em disco e gerar derivados MP4/H.264 para acesso rápido dos usuários na web.';
+        title.textContent = 'Avaliação de formatos e parâmetros de áudio e vídeo';
+        desc.innerHTML = "Para áudio e vídeo, escolha formatos conforme as características da fonte e as propriedades que se deseja preservar. Conversões não recuperam qualidade que já foi perdida; registre parâmetros e compare os resultados. A escolha de formatos é parte da estratégia, e não garantia isolada de preservação (<a class=\"cite-link\" href=\"#ref-formenton-2020\">Formenton; Gracioso, 2020, p. 9, 13–15</a>).";
+        mitigation.textContent = 'Planejar armazenamento e versões de acesso; documentar as diferenças entre as representações.';
       } else {
         // Documentos textuais
         badge.textContent = 'Estratégia Recomendada: Migração com Normalização na Ingestão';
         badge.className = 'recommendation-badge badge-primary-rec';
-        title.textContent = 'Padronização em PDF/A (ISO 19005) e XML com Esquema METS/PREMIS';
-        desc.innerHTML = 'Para acervos textuais e administrativos de longo prazo, a conversão para PDF/A-1a ou PDF/A-2u na ingestão assegura independência absoluta de fontes tipográficas e softwares proprietários (<a href="#ref-santos-flores-2017" class="cite-link">Santos; Flores, 2017</a>; <a href="#ref-arquivo-nacional-2016" class="cite-link">Arquivo Nacional, 2016</a>).';
-        mitigation.textContent = 'Instituir política de recópia e conferência periódica de fixidez por SHA-256 em repositório RDC-Arq auditado.';
+        title.textContent = 'Normalização de documentos e registro de metadados';
+        desc.innerHTML = "Para documentos textuais, avalie a normalização e preserve os metadados e as propriedades significativas. O estudo histórico do RODA apresenta PDF/A-1 como formato selecionado para texto estruturado, dentro de um contexto específico (<a class=\"cite-link\" href=\"#ref-corujo-2014\">Corujo, 2014, p. 130–131</a>).";
+        mitigation.textContent = 'Documentar as conversões, comparar as propriedades significativas e testar recuperação e acesso.';
       }
     }
 
@@ -2529,5 +2160,26 @@
       }
     }
   </script>
-</body>
+<script>(()=>{
+const $=s=>document.querySelector(s), all=s=>[...document.querySelectorAll(s)], norm=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim();
+const originalSim=window.executarSimulador;
+window.executarSimulador=function(){originalSim();const h=$('#simHorizon').value,b=$('#simBudget').value;
+$('#simContext').innerHTML='<h4>Como adaptar sua decisão</h4><p>'+({short:'Curto prazo: priorize inventário, cópias recuperáveis e teste de abertura; acompanhe os riscos mesmo durante a vigência operacional.',medium:'Médio prazo: planeje revisão de formatos e dependências, documentação de mudanças e testes de recuperação.',indefinite:'Prazo indefinido: planeje financiamento continuado, sucessão de responsabilidades, revisão tecnológica e preservação das propriedades significativas.'}[h])+'</p><p>'+({constrained:'Recursos restritos: priorize objetos de maior risco, ferramentas sustentáveis e cooperação entre instituições. Distribua as ações por etapas.',moderate:'Recursos moderados: organize equipe responsável, rotinas documentadas e ferramentas de validação e monitoramento.',robust:'Recursos amplos: avalie automação, redundância geográfica e auditoria independente de acordo com a política institucional.'}[b])+'</p><p><strong>Antes de executar:</strong> mantenha os originais, teste a estratégia em uma amostra e compare conteúdo, funcionalidades e metadados. Nenhum formato garante preservação por si só. Este simulador apresenta orientação didática, sem estimar custos ou certificar conformidade.</p>';};
+window.filtrarTextoAula=function(){const q=norm($('#searchTermInput').value);let n=0;all('.academic-panel[id^="modulo-"]').forEach(p=>{p.hidden=!!q&&!norm(p.textContent).includes(q);p.style.display='';if(!p.hidden)n++;});$('#searchStatus').textContent=q?(n?n+' módulos encontrados.':'Nenhum módulo encontrado. Tente outro termo ou limpe a busca.'):'Todos os 7 módulos disponíveis.';};
+$('#clearSearch').onclick=()=>{$('#searchTermInput').value='';filtrarTextoAula();$('#searchTermInput').focus();};
+all('a[href^="#"]').forEach(a=>a.addEventListener('click',()=>{const el=document.getElementById(a.hash.slice(1));if(el){if(el.closest('.academic-panel')?.hidden){$('#searchTermInput').value='';filtrarTextoAula();}el.tabIndex=-1;requestAnimationFrame(()=>el.focus({preventScroll:true}));}}));
+all('.oais-node').forEach(el=>{el.setAttribute('aria-pressed','false');el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();el.dispatchEvent(new MouseEvent('click',{bubbles:true}));}});el.addEventListener('click',()=>all('.oais-node').forEach(n=>n.setAttribute('aria-pressed',String(n===el))));});
+all('.layer-card').forEach(el=>el.addEventListener('click',()=>all('.layer-card').forEach(n=>n.setAttribute('aria-pressed',String(n===el)))));
+$('.layer-card.active')?.setAttribute('aria-pressed','true');
+const answers={}; const originalQuiz=window.responderQuiz;
+window.responderQuiz=function(el){originalQuiz(el);answers[el.dataset.q]=el.dataset.correct==='true';el.closest('.quiz-card').querySelectorAll('.quiz-option').forEach(n=>n.setAttribute('aria-pressed',String(n===el)));const feedback=$('#q'+el.dataset.q+'Feedback');const a=document.createElement('a');a.href='#modulo-'+({1:1,2:1,3:5,4:5}[el.dataset.q]);a.textContent=' Revisar o conteúdo relacionado →';feedback.append(a);$('#quizStatus').textContent=Object.keys(answers).length+' de 4 questões respondidas · '+Object.values(answers).filter(Boolean).length+' respostas corretas na tentativa atual.';};
+$('#resetQuiz').onclick=()=>{Object.keys(answers).forEach(k=>delete answers[k]);all('.quiz-option').forEach(n=>{n.classList.remove('selected','correct','incorrect');n.setAttribute('aria-pressed','false');});all('.quiz-feedback').forEach(n=>{n.className='quiz-feedback';n.textContent='';});$('#quizStatus').textContent='0 de 4 questões respondidas. Você pode recomeçar.';$('.quiz-option').focus();};
+let state={};try{state=JSON.parse(localStorage.getItem('preservacao-ux18-v1')||'{}')||{};}catch(e){}
+function update(){const n=all('.complete-module:checked').length;$('#studyProgress').value=n;$('#progressText').textContent=n+' de 6 módulos concluídos'+(n===6?' — percurso finalizado. Retome as atividades quando precisar.':'.');try{localStorage.setItem('preservacao-ux18-v1',JSON.stringify(state));}catch(e){}}
+all('.complete-module').forEach(c=>{c.checked=state[c.dataset.module]===true;c.onchange=()=>{state[c.dataset.module]=c.checked;update();};});const next=all('.complete-module').find(c=>!c.checked);if(next){const a=document.createElement('a');a.href='#modulo-'+next.dataset.module;a.textContent='Continuar no primeiro módulo ainda não concluído →';$('#resumeLink').append(a);}update();
+const heads=all('#typologyTable th').map(n=>n.textContent.trim());all('#typologyTable tbody tr').forEach(tr=>[...tr.children].forEach((td,i)=>td.dataset.label=heads[i]||''));
+const origFilter=window.filtrarTabelaTipologia;window.filtrarTabelaTipologia=(category,btn)=>{origFilter(category,btn);all('.filter-btn').forEach(n=>n.setAttribute('aria-pressed',String(n===btn)));$('#tableStatus').textContent=all('#typologyTable tbody tr').filter(n=>n.style.display!=='none').length+' tipologias exibidas.';};const status=document.createElement('p');status.id='tableStatus';status.setAttribute('role','status');$('#typologyTable').before(status);
+executarSimulador();filtrarTextoAula();
+})();
+</script></body>
 </html>
